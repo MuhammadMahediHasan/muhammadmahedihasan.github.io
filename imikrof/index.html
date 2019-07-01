@@ -83,22 +83,20 @@
                             
                                 <nav id="doc-menu" class="nav doc-menu flex-column sticky">
                                     <!-- <a class="nav-link scrollto" href="#download-section">Download</a> -->
-                                    <a class="nav-link scrollto" href="#installation-section"><b>Installation</b></a>
+                                    <a class="nav-link scrollto" href="#installation-section"><b>Admin</b></a>
                                     <nav class="doc-sub-menu nav flex-column">
-                                        <a class="nav-link scrollto" href="#step1"><i class="fas fa-angle-right"></i>&nbsp;Step One</a>
-                                        <a class="nav-link scrollto" href="#step2"><i class="fas fa-angle-right"></i>&nbsp;Step Two</a>
-                                        <a class="nav-link scrollto" href="#step3"><i class="fas fa-angle-right"></i>&nbsp;Step Three</a>
+                                        <a class="nav-link scrollto" href="#step1"><i class="fas fa-angle-right"></i>&nbsp;Login</a>
+                                        <a class="nav-link scrollto" href="#step2"><i class="fas fa-angle-right"></i>&nbsp;Logout </a>
+                                       
                                     </nav><!--//nav-->
-                                    <a class="nav-link scrollto" href="#code-section"><b>Code</b></a>
+                                    <a class="nav-link scrollto" href="#code-section"><b>RBAC</b></a>
                                     <nav class="doc-sub-menu nav flex-column">
-                                        <a class="nav-link scrollto" href="#html"><i class="fas fa-angle-right"></i>&nbsp;HTML</a>
-                                        <a class="nav-link scrollto" href="#css"><i class="fas fa-angle-right"></i>&nbsp;CSS</a>
-                                        <a class="nav-link scrollto" href="#sass"><i class="fas fa-angle-right"></i>&nbsp;Sass</a>
-                                        <a class="nav-link scrollto" href="#less"><i class="fas fa-angle-right"></i>&nbsp;LESS</a>
-                                        <a class="nav-link scrollto" href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;JavaScript</a>
-                                        <a class="nav-link scrollto" href="#python"><i class="fas fa-angle-right"></i>&nbsp;Python</a>
-                                        <a class="nav-link scrollto" href="#php"><i class="fas fa-angle-right"></i>&nbsp;PHP</a>
-                                        <a class="nav-link scrollto" href="#handlebars"><i class="fas fa-angle-right"></i>&nbsp;Handlebars</a>
+                                        <a class="nav-link scrollto" href="#html"><i class="fas fa-angle-right"></i>&nbsp;Employees</a>
+                                        <a class="nav-link scrollto" href="#css"><i class="fas fa-angle-right"></i>&nbsp;Create Permission</a>
+                                        <a class="nav-link scrollto" href="#sass"><i class="fas fa-angle-right"></i>&nbsp;Create Role</a>
+                                        <a class="nav-link scrollto" href="#less"><i class="fas fa-angle-right"></i>&nbsp;Permission Role</a>
+                                        <a class="nav-link scrollto" href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;User Access</a>
+                                        
                                     </nav><!--//nav-->
                                     <a class="nav-link scrollto" href="#callouts-section"><b>Callouts</b></a>
                                     <a class="nav-link scrollto" href="#tables-section"><b>Tables</b></a>
@@ -111,6 +109,8 @@
                     </div>
                     <div class="doc-content col-md-9 col-12 order-1">
                         <div class="content-inner">
+                            <div id="printfullpage">
+                            <div id="printcontent">
                             <section id="general-template" class="doc" style="border-left: 2px solid #b7b7b7;padding-left: 15px;">
                               <div class="page-header">
                                 <h3>সূচিপত্র </h3>
@@ -125,19 +125,48 @@
                                                 <td><a class="nav-link scrollto" href="#installation-section">কিবাবে সফ্টওয়ার এ লগইন করবেন ?</a></td>
                                                 <td>1</td>
                                             </tr>
-                                            <tr>
-                                                <td>সফটওয়্যার এর বেসিক কনফিগারেশন </td>
-                                                <td>2</td>
+                                                 <tr>
+                                              <td> 
+                                                <a class="nav-link scrollto" href="#employees_add-section">কিভাবে এমপ্লয়ীজ কনফিগার করবেন ?
+                                               </a>
+                                              </td>
+                                              <td>4</td>
                                             </tr>
                                             <tr>
-                                                <td>সিস্টেম  কনফিগারেশন  করা  </td>
-                                                <td>3</td>
+                                                <td><a class="nav-link scrollto" href="#user_access-section">কিভাবে ইউজার এক্সেস কনফিগার করবেন ?</a> </td>
+                                                <td>2</td>
+                                            </tr>
+                                              <tr>
+                                              <td> 
+                                                <a class="nav-link scrollto" href="#employees_depatment-section">কিভাবে  ইমপ্লোই ডিপার্টমেন্ট কনফিগার করবেন ?
+                                               </a>
+                                              </td>
+                                              <td>4</td>
+                                            </tr>
+                                             <tr>
+                                              <td> 
+                                                <a class="nav-link scrollto" href="#employees_reponsibility-section">কিভাবে ইমপ্লোই রেস্পন্সিবিলিটি হিস্ট্রি কনফিগার করবেন ?
+                                               </a>
+                                              </td>
+                                              <td>4</td>
+                                            </tr>
+                                            <tr>
+                                              <td> 
+                                                <a class="nav-link scrollto" href="#employees_promotion-section">কিভাবে ইমপ্লোই প্রমোশন কনফিগার করবেন ?
+                                               </a>
+                                              </td>
+                                              <td>4</td>
                                             </tr>
 
                                             <tr>
-                                              <td>ক্লাস / সেমিস্টার এন্ট্রি করা </td>
-                                              <td>4</td>
+                                                <td>
+                                                    <a class="nav-link scrollto" href="#employees_regign-section">কিভাবে এমপ্লয়ী রিজাইন/টারমিনেশন কনফিগার করবেন ?
+                                                     </a>
+                                                 </td>
+                                                <td>3</td>
                                             </tr>
+
+                                           
                                             <tr>
                                               <td>সেকশন্স এন্ট্রি করা </td>
                                               <td>4</td>
@@ -149,419 +178,280 @@
                                         </tbody>
                                     </table>
                               </div>
+                              </div>
+                              <button class="btn btn-primary" id="print_content" onclick="printContent('printcontent')" style="float: right;"><i class="fa fa-print" aria-hidden="true"></i></button>
                             </section>
-                            <section id="download-section" class="doc-section">
+                        
+                            <!-- <section id="download-section" class="doc-section">
                                 <h2 class="section-title">Download</h2>
-                                <div class="section-block">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec imperdiet turpis. Curabitur aliquet pulvinar ultrices. Etiam at posuere leo. Proin ultrices ex et dapibus feugiat <a href="#">link example</a> aenean purus leo, faucibus at elit vel, aliquet scelerisque dui. Etiam quis elit euismod, imperdiet augue sit amet, imperdiet odio. Aenean sem erat, hendrerit  eu gravida id, dignissim ut ante. Nam consequat porttitor libero euismod congue. 
-                                    </p>
-                                    <a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/prettydocs-free-bootstrap-theme-for-developers-and-startups/" class="btn btn-green" target="_blank"><i class="fas fa-download"></i> Download PrettyDocs</a>
-                                </div>
-                            </section><!--//doc-section-->
+                                <div class="section-block"> -->
+                                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec imperdiet turpis. Curabitur aliquet pulvinar ultrices. Etiam at posuere leo. Proin ultrices ex et dapibus feugiat <a href="#">link example</a> aenean purus leo, faucibus at elit vel, aliquet scelerisque dui. Etiam quis elit euismod, imperdiet augue sit amet, imperdiet odio. Aenean sem erat, hendrerit  eu gravida id, dignissim ut ante. Nam consequat porttitor libero euismod congue. 
+                                    </p> -->
+                                    <!-- <a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/prettydocs-free-bootstrap-theme-for-developers-and-startups/" class="btn btn-green" target="_blank"><i class="fas fa-download"></i> Download PrettyDocs</a>
+                                </div> -->
+                            <!--</section>//doc-section-->
                             <section id="installation-section" class="doc-section">
-                                <h2 class="section-title">Installation</h2>
+                                <div id="printinstallation"> 
+                                <h2 class="section-title">কিবাবে সফ্টওয়ার এ লগইন করবেন</h2>
                                 <div id="step1"  class="section-block">
-                                    <h3 class="block-title">Step One</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.
+                                   
+                                    <p>IMirof সফটওয়্যার এ লগইন করার জন্য প্রথমে আপনার কম্পিউটারের  ইন্টারনেট কানেকশন নিশ্চিত করতে হবে। তারপর ইন্টারনেট ব্রাউজার ওপেন করতে হবে।সফটওয়্যারটির Supported ইন্টারনেট ব্রাউজার হচ্ছে google Chorme,microsoft edge । 
                                     </p>
                                     <div class="code-block">
-                                        <h6>Default code example:</h6>
-                                        <p><code>bower install &lt;package&gt;</code></p>
-                                        <p><code>npm install &lt;package&gt;</code></p>
-                                    </div><!--//code-block-->
+                                        <img src="assets/images/browser.png" style="    width: 795px;">
+                                      </div><!--//code-block-->
+                                        <p>ইন্টারনেট ব্রাউজার ওপেন করার পর ব্রাউজার  এর Address এ সফটওয়্যার এর Address লিখতে হবে।</p>
+                                        <img src="assets/images/login_browser.png" style="    width: 795px;">
+                                  
                                 </div><!--//section-block-->
-                                <div id="step2"  class="section-block">
-                                    <h3 class="block-title">Step Two</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                                    </p>
-                                    <div class="row">
-                                        <div class="col-md-6 col-12">
-                                            <h6>Un-ordered list example</h6>
-                                            <ul class="list">
-        										<li>Lorem ipsum dolor sit amet.</li>
-        										<li>Aliquam tincidunt mauris.</li>
-        										<li>Ultricies eget vel aliquam libero.
-        											<ul>
-        												<li>Turpis pulvinar</li>
-        												<li>Feugiat scelerisque</li>
-        												<li>Ut tincidunt</li>
-        											</ul>
-        										</li>
-        										<li>Pellentesque habitant morbi.</li>
-        										<li>Praesent dapibus, neque id.</li>
-        									</ul>
-                                        </div>
-                                        <div class="col-md-6 col-12">
-                                            <h6>Ordered list example</h6>
-                                            <ol class="list">
-        										<li>Lorem ipsum dolor sit amet.</li>
-        										<li>Aliquam tincidunt mauris.</li>
-        										<li>Ultricies eget vel aliquam libero.
-        											<ul>
-        												<li>Turpis pulvinar</li>
-        												<li>Feugiat scelerisque</li>
-        												<li>Ut tincidunt</li>
-        											</ul>
-        										</li>
-        										<li>Pellentesque habitant morbi.</li>
-        										<li>Praesent dapibus, neque id.</li>
-        									</ol>
-                                        </div>
-                                    </div><!--//row-->
-                                </div><!--//section-block-->
-                                <div id="step3"  class="section-block">
-                                    <h3 class="block-title">Step Three</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.
-                                    </p>
-                                </div><!--//section-block-->
+                                <p>Address লেখার পর কী-বোর্ডের ইন্টার কী প্রেস করতে হবে,প্রেস করার পর উক্ত সফটওয়্যার এ প্রবেশ করার জন্য একটি লগইন ফর্ম আসবে।
+                                </p>
+                                    <!-- <h1>Print me</h1>  -->
+                                    <img src="assets/images/login_from.png" style="    width: 795px;">
+                                <p>লগইন ফর্মে দুইটি টেক্সট বক্স আছে একটি Email Address এবং অপরটি  Password । উক্ত টেক্সট বক্সে ই-মেইল ও পাসওয়ার্ড দেওয়ার পর লগইন বাটন এ ক্লিক করতে হবে । ই-মেইল ও পাসওয়ার্ড যদি বৈধ হয় তা হলে সফটওয়্যারটি এক্সেস করার অনুমতি পাবেন। আর যদি বৈধ না হয় তাহলে পুনরায় লগইন ফর্মে ফেরত পাঠাবে।</p>
+                                </div> 
+                                <button class="btn btn-primary"  id="print_installation"  onclick="printInstallation('printinstallation')" style="float: right;"><i class="fa fa-print" aria-hidden="true"></i></button>
                             </section><!--//doc-section-->
                             
-                            <section id="code-section" class="doc-section">
-                                <h2 class="section-title">Code</h2>
+                            <section id="user_access-section" class="doc-section">
+                                <h2 class="section-title">কিভাবে ইউজার এক্সেস কনফিগার করবেন</h2>
                                 <div class="section-block">
+                                   
                                     <p>
-                                        <a href="https://prismjs.com/" target="_blank">PrismJS</a> is used as the syntax highlighter here. You can <a href="https://prismjs.com/download.html" target="_blank">build your own version</a> via their website should you need to.
+                                        ইউজার এক্সেস হচ্ছে সেখান থেকে কোনো ইউজার বা কোনো ইমপ্লয়ী কে তাদের রেজিগ্নেশান অর্থাৎ পদ মর্যাদা অনুযায়ী   বিভিন্ন পারমিশন দেয়া হয়। অর্থাৎ,  কোন কাজটা করতে পারবে আবার কোন কাজটা করতে পারবেনা সে পারমিশন দেয়া হয়।এক্ষেত্রে কোনো ইউসার অর্থাৎ ইমপ্লয়ী কে কোনো পারমিশন দিতে হলে RBAC তে মাউস পয়েন্টার রেখে ইউজার এক্সেস এ ক্লিক করতে হবে।
                                     </p>
-                                    
-                                </div><!--//section-block-->
-                                <div id="html" class="section-block">
-                                    
-                                    <div class="callout-block callout-success">
-                                        <div class="icon-holder">
-                                            <i class="fas fa-thumbs-up"></i>
-                                        </div><!--//icon-holder-->
-                                        <div class="content">
-                                            <h4 class="callout-title">Useful Tip:</h4>
-                                            <p>You can use this online <a href="https://mothereff.in/html-entities" target="_blank">HTML entity encoder/decoder</a> to generate your code examples.</p>
-                                        </div><!--//content-->
-                                    </div>
-                                    <div class="code-block">
-                                        <h6>HTML Code Example</h6>
-                                        <pre><code class="language-markup">&lt;!DOCTYPE html&gt; 
-&lt;html lang=&quot;en&quot;&gt; 
-    ...
-    &lt;div class=&quot;jumbotron&quot;&gt; 
-        &lt;h1&gt;Hello, world!&lt;/h1&gt; 
-        &lt;p&gt;...&lt;/p&gt; 
-        &lt;p&gt;&lt;a class=&quot;btn btn-primary btn-lg&quot; href=&quot;#&quot; role=&quot;button&quot;&gt;Learn more&lt;/a&gt;&lt;/p&gt; 
-    &lt;/div&gt;
-    &lt;div class=&quot;jumbotron&quot;&gt; 
-        &lt;h1&gt;Hello, world!&lt;/h1&gt; 
-        &lt;p&gt;...&lt;/p&gt; 
-        &lt;p&gt;&lt;a class=&quot;btn btn-primary btn-lg&quot; href=&quot;#&quot; role=&quot;button&quot;&gt;Learn more&lt;/a&gt;&lt;/p&gt; 
-    &lt;/div&gt;
-    ...
-&lt;/html&gt;</code></pre>
-                                    </div><!--//code-block-->
-                                </div><!--//section-block-->
-                                <div id="css" class="section-block">
-                                    <div class="code-block">
-                                        <h6>CSS Code Example</h6>
-                                        <pre><code class="language-css">/* ======= Base Styling ======= */
-body {
-    font-family: 'Open Sans', arial, sans-serif; 
-    color: #333; 
-    font-size: 16px; 
-    -webkit-font-smoothing: antialiased; 
-    -moz-osx-font-smoothing: grayscale; 
-}</code></pre>
-                                    </div><!--//code-block-->
-                                </div><!--//section-block-->
-                                <div id="sass" class="section-block">
-                                    <div class="code-block">
-                                        <h6>SCSS Code Example</h6>
-                                        <pre><code class="language-css">@mixin transform($property) {
-  -webkit-transform: $property;
-      -ms-transform: $property;
-          transform: $property;
-}
 
-.box { @include transform(rotate(30deg)); }</code></pre>
-                                    </div><!--//code-block-->
-                                </div><!--//section-block-->
-                                <div id="less" class="section-block">
-                                    <div class="code-block">
-                                        <h6>LESS Code Example</h6>
-                                        <pre><code class="language-css">@base: #f04615;
-@width: 0.5;
-
-.class {
-  width: percentage(@width); // returns &#x60;50%&#x60;
-  color: saturate(@base, 5%);
-  background-color: spin(lighten(@base, 25%), 8);
-}</code></pre>
-                                    </div><!--//code-block-->
-                                </div><!--//section-block-->
-                                <div id="javascript" class="section-block">
-                                    <div class="code-block">
-                                        <h6>JavaScript Code Example</h6>
-                                        <pre><code class="language-javascript">&lt;script&gt; 
-    function myFunction(a, b) { 
-        return a * b; 
-    } 
-    
-    document.getElementById(&quot;demo&quot;).innerHTML = myFunction(4, 3); 
-&lt;/script&gt;</code></pre>
-                                    </div><!--//code-block-->
-                                </div><!--//section-block-->
-                                <div id="python" class="section-block">
-                                    <div class="code-block">
-                                        <h6>Python Code Example</h6>
-                                        <pre><code class="language-python">&gt;&gt;&gt; x = int(input(&quot;
-Please enter an integer: &quot;)) Please enter an integer: 42 
-&gt;&gt;&gt; if x &lt; 0: 
-... x = 0 
-... print('Negative changed to zero') 
-... elif x == 0: 
-... print('Zero') 
-... elif x == 1: 
-... print('Single') 
-... else: 
-... print('More') 
-... More</code></pre>
-                                    </div><!--//code-block-->
-                                </div><!--//section-block-->
-                                <div id="php" class="section-block">
-                                    <div class="code-block">
-                                        <h6>PHP Code Example</h6>
-                                        <pre><code class="language-php">&lt;?php 
-$txt = &quot;Hello world!&quot;; 
-$x = 5; 
-$y = 10.5; 
-
-echo $txt; 
-echo &quot;&lt;br&gt;&quot;; 
-echo $x; 
-echo &quot;&lt;br&gt;&quot;; 
-echo $y; 
-?&gt;</code></pre>
-                                    </div><!--//code-block-->
-                                </div><!--//section-block-->
-                                <div id="handlebars" class="section-block">
-                                    <div class="code-block">
-                                        <h6>Handlebars Code Example</h6>
-                                        <pre><code class="language-handlebars">Handlebars.registerHelper('list', function(items, options) { 
-  var out = &quot;&lt;ul&gt;&quot;; 
-  
-  for(var i=0, l=items.length; i&lt;l; i++) { 
-    out = out + &quot;&lt;li&gt;&quot; + options.fn(items[i]) + &quot;&lt;/li&gt;&quot;; 
-  } 
-  
-  return out + &quot;&lt;/ul&gt;&quot;; 
-});</code></pre>
-                                    </div><!--//code-block-->
-                                    <div class="code-block">
-                                        <h6>Git Code Example</h6>
-                                        <pre><code class="language-git">$ git add Documentation.txt</code></pre>
-                                    </div><!--//code-block-->
-                                </div><!--//section-block-->
-                            </section><!--//doc-section-->
-                            <section id="callouts-section" class="doc-section">
-                                <h2 class="section-title">Callouts</h2>
-                                <div class="section-block">
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. 
-                                    </p>
-                                </div>
-
-                                <div class="section-block">
-                                    <div class="callout-block callout-info">
-                                        <div class="icon-holder">
-                                            <i class="fas fa-info-circle"></i>
-                                        </div><!--//icon-holder-->
-                                        <div class="content">
-                                            <h4 class="callout-title">Aenean imperdiet</h4>
-                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium <code>&lt;code&gt;</code> , Nemo enim ipsam voluptatem quia voluptas <a href="#">link example</a> sit aspernatur aut odit aut fugit.</p>
-                                        </div><!--//content-->
-                                    </div><!--//callout-block-->
+                                       <img  src="assets/images/user_access_list.png" style="    width: 795px;">
+                                     <p>
+                                       ক্লিক করার পর একটি ফর্ম আসবেপ্রথমে সেখান থেকে যে ইমপ্লয়ী কে পারমিশন দেয়া হবে সে  ইমপ্লয়ীর  ব্রাঞ্চ নেইম সিলেক্ট করতে হবে।  ব্রাঞ্চ নেইম সিলেক্ট করার পর ওই ইমপ্লয়ীর নেইম সিলেক্ট করতে হবে।তারপর কি ধরণের পারমিশন দেয়া হবে তা সিলেক্ট করতে হবে। এবং সব শেষ সেভ বাটন ক্লিক করলে পারমিশন সম্পন্ন হবে।
+                                     </p>
+                                       <img  src="assets/images/user_access_add.png" style="    width: 795px;">
+                                    <p>
+                                         তারপর তা লিস্ট এ অ্যাড হয়ে যাবে। কোনো তথ্য যদি ভুল হয় সেখান থেকে তা  প্রয়োজনে মনিটরের পর্দার ডান পাশের (Delete, Edit)  বাটনে ক্লিক করে ডিলিট বা আপডেট করা যাবে।
+                                    </p> 
+                                    <img  src="assets/images/user_access_add.png" style="    width: 795px;">
+                                   
                                     
-                                    <div class="callout-block callout-warning">
-                                        <div class="icon-holder">
-                                            <i class="fas fa-bug"></i>
-                                        </div><!--//icon-holder-->
-                                        <div class="content">
-                                            <h4 class="callout-title">Morbi posuere</h4>
-                                            <p>Nunc hendrerit odio quis dignissim efficitur. Proin ut finibus libero. Morbi posuere fringilla felis eget sagittis. Fusce sem orci, cursus in tortor <a href="#">link example</a> tellus vel diam viverra elementum.</p>
-                                        </div><!--//content-->
-                                    </div><!--//callout-block-->
+                                </div><!--//section-block-->
+                             
+                              
+                              
+                            </section><!--//doc-section-->
+                              <section id="employees_add-section" class="doc-section">
+                                <div id="printinstallation"> 
+                                <h2 class="section-title">কিভাবে এমপ্লয়ীজ কনফিগার করবেন ?</h2>
+                                <div id="step1"  class="section-block">
+                                   
+                                    <p>এই মেনু থেকে সাধারনত Employee তথ্য জমা রাখা হয় এবং প্রয়োজনে Emloyee এর তথ্য পরিবর্তন ও মুছে দেওয়া যায়।  </p>
+
+
+                                     <img  src="assets/images/employee_list.jpg" style="    width: 795px;">
+                                        <p> 
+                                           Employee টেবিলের ডান পাশে Add Employee বাটন আছে।উক্ত বাটনে ক্লিক করে আমরা নতুন Employee এর তথ্য জমা করতে পারি।Add Employe বাটনে ক্লিক করলে একটি ফর্ম দেখতে পাবেন।ফর্মটি পূরনের মাধ্যমে নতুন কর্মচারীর তথ্য জমা রাখা হয়। 
+                                        </p>
+                                        
+                                        
+                                          <img  src="assets/images/employe_add_btn.jpg" style="    width: 795px;">
+                                        <p>
+                                           Employee টেবিলে Action নামে একটি কলাম আছে ,যেখানে দুইটি বাটন আছে যথক্রমে Edit,Delete.কোন একজন কর্মচারীর তথ্য পরিবর্তন করার প্রোয়জন হলে Edit বাটন ক্লিক করতে হবে।
+                                        </p>
+                                        <img  src="assets/images/employee_edit.png" style="    width: 795px;">
                                     
-                                    <div class="callout-block callout-success">
-                                        <div class="icon-holder">
-                                            <i class="fas fa-thumbs-up"></i>
-                                        </div><!--//icon-holder-->
-                                        <div class="content">
-                                            <h4 class="callout-title">Lorem ipsum dolor sit amet</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <a href="#">Link example</a> aenean commodo ligula eget dolor.</p>
-                                        </div><!--//content-->
-                                    </div><!--//callout-block-->
+                                         <p>Edit বাটনে ক্লিক করার পর একটি ফর্ম আসবে,উক্ত ফর্মে কর্মচারীর আগের তথ্য গুলা আসবে, সেখান থেকে প্রোয়জনীয় তথ্য যুক্ত করে Edit ফর্মের নিচে Update নামে একটি বাটন আছে ওই বাটনে ক্লিক করলে পরিবর্তিত তথ্য সেভ হবে।
+
+                                        খন আমরা যদি কোন কর্মচারীর তথ্য মুছে ফেলতে চাই তবে Delete  বাটনটি ক্লিক করে তথ্য মুছে দিতে পারি ।
+
+                                        Employee টে্বিল থেকে কোন emloyee  এর  তথ্য খুজে বের করতে হলে employee  টেবিল এর  সার্চ বক্সে employee এর নাম,পদবী এবং ব্রাঞ্জ এর নাম সিলেক্ট করে সার্চ বাটনে ক্লিক করতে হবে।সার্চ বাটনে ক্লিক করলে উক্ত employee এর তথ্য পাওয়া যাবে।
+
+                                         </p>
+                                        
+                                        
+                                       
                                     
-                                    <div class="callout-block callout-danger">
-                                        <div class="icon-holder">
-                                            <i class="fas fa-exclamation-triangle"></i>
-                                        </div><!--//icon-holder-->
-                                        <div class="content">
-                                            <h4 class="callout-title">Interdum et malesuada</h4>
-                                            <p>Morbi eget interdum sapien. Donec sed turpis sed nulla lacinia accumsan vitae ut tellus. Aenean vestibulum <a href="#">Link example</a> maximus ipsum vel dignissim. Morbi ornare elit sit amet massa feugiat, viverra dictum ipsum pellentesque. </p>
-                                        </div><!--//content-->
-                                    </div><!--//callout-block-->
-                                </div>
-                            </section><!--//doc-section-->
-                            <section id="tables-section" class="doc-section">
-                                <h2 class="section-title">Tables</h2>
-                                <div class="section-block">
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.
-                                    </p>
-                                </div>
-                                <div class="section-block">
-                                    <h6>Basic Table</h6>
-                                    <div class="table-responsive">
-                                        <table class="table">
-                                            <thead>
-                                                <tr>
-                                                    <th>#</th>
-                                                    <th>First Name</th>
-                                                    <th>Last Name</th>
-                                                    <th>Username</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <th scope="row">1</th>
-                                                    <td>Mark</td>
-                                                    <td>Otto</td>
-                                                    <td>@mdo</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">2</th>
-                                                    <td>Jacob</td>
-                                                    <td>Thornton</td>
-                                                    <td>@fat</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">3</th>
-                                                    <td>Larry</td>
-                                                    <td>the Bird</td>
-                                                    <td>@twitter</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div><!--//table-responsive-->
-                                    <h6>Striped Table</h6>
-                                    <div class="table-responsive">
-                                        <table class="table table-striped">
-                                            <thead>
-                                                <tr>
-                                                    <th>#</th>
-                                                    <th>First Name</th>
-                                                    <th>Last Name</th>
-                                                    <th>Username</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <th scope="row">1</th>
-                                                    <td>Mark</td>
-                                                    <td>Otto</td>
-                                                    <td>@mdo</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">2</th>
-                                                    <td>Jacob</td>
-                                                    <td>Thornton</td>
-                                                    <td>@fat</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">3</th>
-                                                    <td>Larry</td>
-                                                    <td>the Bird</td>
-                                                    <td>@twitter</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div><!--//table-responsive-->
-                                    <h6>Bordered Table</h6>
-                                    <div class="table-responsive">
-                                        <table class="table table-bordered">
-                                            <thead>
-                                                <tr>
-                                                    <th>#</th>
-                                                    <th>First Name</th>
-                                                    <th>Last Name</th>
-                                                    <th>Username</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <th scope="row">1</th>
-                                                    <td>Mark</td>
-                                                    <td>Otto</td>
-                                                    <td>@mdo</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">2</th>
-                                                    <td>Jacob</td>
-                                                    <td>Thornton</td>
-                                                    <td>@fat</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">3</th>
-                                                    <td>Larry</td>
-                                                    <td>the Bird</td>
-                                                    <td>@twitter</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div><!--//table-responsive-->
+                                 
                                 </div><!--//section-block-->
+                               
+                                    <!-- <h1>Print me</h1>  -->
+                                </div> 
+                                <button class="btn btn-primary"  id="print_installation"  onclick="printInstallation('printinstallation')" style="float: right;"><i class="fa fa-print" aria-hidden="true"></i></button>
                             </section><!--//doc-section-->
-                            <section id="buttons-section" class="doc-section">
-                                <h2 class="section-title">Buttons</h2>
-                                <div class="section-block">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec imperdiet turpis. Curabitur aliquet pulvinar ultrices. Etiam at posuere leo. Proin ultrices ex et dapibus feugiat <a href="#">link example</a> aenean purus leo, faucibus at elit vel, aliquet scelerisque dui. Etiam quis elit euismod, imperdiet augue sit amet, imperdiet odio. Aenean sem erat, hendrerit  eu gravida id, dignissim ut ante. Nam consequat porttitor libero euismod congue. 
-                                    </p>
-                                    <div class="row">
-                                        <div class="col-md-6 col-12">
-                                            <h6>Basic Buttons</h6>
-                                            <ul class="list list-unstyled">
-                                                <li><a href="#" class="btn btn-primary">Primary Button</a></li>
-                                                <li><a href="#" class="btn btn-green">Green Button</a></li>
-                                                <li><a href="#" class="btn btn-blue">Blue Button</a></li>
-                                                <li><a href="#" class="btn btn-orange">Orange Button</a></li>
-                                                <li><a href="#" class="btn btn-red">Red Button</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-6 col-12">
-                                            <h6>CTA Buttons</h6>
-                                            <ul class="list list-unstyled">
-                                                <li><a href="#" class="btn btn-primary btn-cta"><i class="fas fa-download"></i> Download Now</a></li>
-                                                <li><a href="#" class="btn btn-green btn-cta"><i class="fas fa-code-branch"></i> Fork Now</a></li>
-                                                <li><a href="#" class="btn btn-blue btn-cta"><i class="fas fa-play-circle"></i> Find Out Now</a></li>
-                                                <li><a href="#" class="btn btn-orange btn-cta"><i class="fas fa-bug"></i> Report Bugs</a></li>
-                                                <li><a href="#" class="btn btn-red btn-cta"><i class="fas fa-exclamation-circle"></i> Submit Issues</a></li>
-                                            </ul>
-                                        </div>
-                                    </div><!--//row-->
+                            
+                                   <section id="employees_depatment-section" class="doc-section">
+                                <div id="printinstallation"> 
+                                <h2 class="section-title">কিভাবে  ইমপ্লোই ডিপার্টমেন্ট কনফিগার করবেন ?</h2>
+                                <div id="step1"  class="section-block">
+                                   
+                                    <p>Employees Department- এর মধ্যে একটা কোম্পানির সবগুলো ডিপার্টমেন্টের নাম থাকবে এবং ইউজার এডমিন তাদের প্রয়োজন মতে ডিপার্টমেন্ট সংযোগ করতে পারবে এবং কি প্রয়োজন হলে ডিপার্টমেন্ট এর নাম সংশোধন ও ডিলিট করতে পারবে।Employees Department এ যে ডিপার্টমেন্ট গুলো এড করা হবে তা সবগুলো ডিপার্টমেন্ট একটা টেবিলে প্রদর্শন করবে </p>
+
+
+                                     <img  src="assets/images/employee_resign_list.png" style="    width: 795px;">
+                                        <p> 
+                                            এ ডিপার্টমেন্ট এড করার পদ্ধতিঃ প্রথমে Employee মেনু থেকে Employees Department এ ক্লিক করে Employees Department প্রবেশ করতে হবে। তারপর Employees Department Data Table এর ডান পাশের +Add new Department বাটনে ক্লিক করলে একটা মোডাল প্রদর্শন হবে, যেখানে “Enter Employee Department name and click Save”  একটি ফরম আসবে সেখানে Department এর নিচে ইনপুট ফিল্ডে Department এর নাম লেখতে হবে তার পর নিচের Save বাটনে ক্লিক করে Add new Department সম্পূর্ণ করতে হবে ।
+                                        </p>
+                                        
+                                        
+                                          <img  src="assets/images/employee_department_add.png" style="    width: 795px;">
+                                        <p>
+                                            Employees Department এর ডিপার্টমেন্ট সংশোধন বা ডিলিট করার জন্য Employees Department Data Table এর ডান পাশের Action নামের কলামের এডিট বাটনে ক্লিক করে ডিপার্টমেন্টের নাম সংশোধন করা যাবে এবং ডিলিট বাটনে ক্লিক করলে ডিপার্টমেন্ট টি ডিলিট হয়ে যাবে।
+                                        </p>
+                                        <img  src="assets/images/employee_regign_search.png" style="    width: 795px;">
+                                    
+                                         
+                                        
+                                        
+                                       
+                                    
+                                 
                                 </div><!--//section-block-->
+                               
+                                    <!-- <h1>Print me</h1>  -->
+                                </div> 
+                                <button class="btn btn-primary"  id="print_installation"  onclick="printInstallation('printinstallation')" style="float: right;"><i class="fa fa-print" aria-hidden="true"></i></button>
                             </section><!--//doc-section-->
-                            <section id="video-section" class="doc-section">
-                                <h2 class="section-title">Video</h2>
-                                <div class="section-block">
-                                    <div class="row">
-                                        <div class="col-md-6 col-12">
-                                            <h6>Responsive Video 16:9</h6>
-                                            <!-- 16:9 aspect ratio -->
-                                            <div class="embed-responsive embed-responsive-16by9">
-                                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ejBkOjEG6F0?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-12">
-                                            <h6>Responsive Video 4:3</h6>
-                                            <!-- 4:3 aspect ratio -->
-                                            <div class="embed-responsive embed-responsive-4by3">
-                                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ejBkOjEG6F0?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-                                            </div>
-                                        </div>
-                                    </div><!--//row-->
+                            
+
+                             <section id="employees_degiination-section" class="doc-section">
+                                <div id="printinstallation"> 
+                                <h2 class="section-title">কিভাবে ইমপ্লোই রেস্পন্সিবিলিটি হিস্ট্রি কনফিগার করবেন</h2>
+                                <div id="step1"  class="section-block">
+                                   
+                                    <p>প্রথমে এমপ্লয়ী নামক মডিউলে ক্লিক করলে অনেক গুলো অপশন থেকে এমপ্লয়ী প্রমোশান নামক অপশনে কিøক করতে হবে। এরপর এমপ্লয়ী প্রমোশান নামক পেইজটি আসবে। এরপর উপরের ডান পাশে এড নিউ এমপ্লয়ী প্রমোশান নামক বাটনে ক্লিক করতে হবে।</p>
+
+
+                                     <img  src="assets/images/employee_responsibility_btn.jpg" style="    width: 795px;">
+                                       
+                                       
+                                       
+                                         <p>
+                                       তারপর এড এমপ্লয়ী প্রমোশান নামক একটি ফরম আসবে। এখানে প্রথম ফিল্ড হচ্ছে ব্রান্স বা শাখা। এখানে প্রথমে যে এমপ্লয়ী বা চাকুরিজিবী যে ব্রান্স বা শাখায় আছে তার তথ্য লিখতে বা এন্ট্রি দিতে হবে । তারপর যে ফিল্ড আছে তাতে যে এমপ্লয়ীকে প্রমোশান দেওয়া হবে তার নাম লিখতে হবে। তারপরের ফিল্ড হচ্ছে পূরানা পদবী বা ওল্ড ডেজিগনেশান। এই ফিল্ডে এমপ্লয়ীর পূরান বা যে পদবী থেকে প্রমোশান পাবে তা লিখতে হবে। তারপরের ফিল্ডে নতুন যে পদবীতে প্রমোশান দেওয়া হবে তা লিখতে হবে। এরপর সব তথ্য সঠিক ভাবে লিখা বা এন্ট্রি করা হলে সেইভ নামক বাটনে কিøক করতে হবে। তাহলে তথ্য সেইভ বা সংরক্ষিত হবে। যদি ফরমের তথ্য লিখার পর সেইভ করার প্রয়োজন না হলে কেনসেল নামক বাটনে ক্লিক কওে ফরম টির তথ্য বাদ দেওয়া যাবে। যদি ফরমের সকল ফিল্ড সঠিক ভাবে পূরন করা না হয় তাহলে সেইভ বাটনে ক্লিক করলে এরর বা ফেইল্ড নটিফিকেশান দেখাবে এবং তথ্য সেইভ হবে না। আর যদি সকল ফিল্ড সঠিক ভাবে পূরন কওে সেইভ করা হয় তাহলে সাকসেসফুল নামক নটিফিকেশান দেখাবে এবং তথ্য সেইভ বা সংরক্ষিত হবে। 
+                                          </p>
+                                            
+                                             <img  src="assets/images/employee_responsibility_history_form.jpg" style="    width: 795px;">
+                                          <p>
+                                         
+
+                                        <p>
+                                            সংরক্ষিত তথ্য সমূহ ডাটা টেবিলের মধ্যে দেখা যাবে। যদি কোন তথ্য পরিবর্তন করার প্রয়োজন হয় তাহলে এডিট নামক বাটনে ক্লিক করে আবার আগের ফরমের মতো ফরমে গিয়ে তথ্য পরিবর্তন করে সেইভ করা যায়। আবার কোন এমপ্লয়ীর তথ্য বাদ দিতে হলে ডিলিট নামক বাটনে ক্লিক করলে তথ্য কি সত্যি ডিলিট করতে চাই কিনা? এই রকম একটা নটিফিকেশন আসবে ঐখানে হ্যা নামক বাটনে ক্লিক করলে তথ্য ডিলিটি হয়ে যাবে।এভাবেই এমপ্লয়ী রেসপনসিবিলিটি হিসটরিতে এমপ্লয়ীর তথ্য এড, ডিলিট এবং এডিট করা যাবে।
+                                        </p>
+                                         
+                                        
+                                    
+                                 
                                 </div><!--//section-block-->
+                               
+                                    <!-- <h1>Print me</h1>  -->
+                                </div> 
+                                <button class="btn btn-primary"  id="print_installation"  onclick="printInstallation('printinstallation')" style="float: right;"><i class="fa fa-print" aria-hidden="true"></i></button>
+                            </section><!--//doc-section-->
+                            <section id="employees_reponsibility-section" class="doc-section">
+                                <div id="printinstallation"> 
+                                <h2 class="section-title">কিভাবে ইমপ্লোই প্রমোশন কনফিগার করবেন</h2>
+                                <div id="step1"  class="section-block">
+                                   
+                                    <p>প্রথমে এমপ্লয়ী নামক মডিউলে ক্লিক করলে অনেক গুলো অপশন থেকে এমপ্লয়ী রেসপনসিবিলিটি হিসটরি নামক অপশনে কিøক করতে হবে। </p>
+
+
+                                     <img  src="assets/images/employee promotion_add.jpg" style="    width: 795px;">
+                                        <p> 
+                                          এরপর এমপ্লয়ী রেসপনসিবিলিটি হিসটরি নামক পেইজ টি আসবে। এরপর উপরের ডান পাশে এড এমপ্লয়ী রেসপনসিবিলিটি হিসটরি নামক বাটনে ক্লিক করতে হবে। তারপর একটি এড ফরম আসবে। এখানে প্রথম ফিল্ড হচ্ছে ব্রান্স বা শাখা।  এখানে প্রথমে যে এমপ্লয়ীর দায়িত্ব তথা রেসপনসিবিলিটি থাকবে তার ব্রান্স বা শাখার নাম দিতে হবে। তারপরের ফিল্ড হচ্ছে এমপ্লয়ীর নাম। এখানে এমপ্লয়ীর নাম দিতে হবে। তারপরের ফিল্ড হচ্ছে কোন তারিখ হতে তার রেসপনসিবিলিটি বা দায়িত্ব শুরু হবে তার তারিখ উল্লেখ বা এন্ট্রি করে দিতে হবে। তার পরের ফিল্ড হচ্ছে কোন তারিখে তার (এমপ্লয়ীর) দায়িত্ব বা রেসপনসিবিলিটি শেষ হবে তার তারিখ এড বা লিখে দিতে হবে।এভাবে সবগুলো ফিল্ড পূরন করা হয়ে গেলে সেইভ নামক বাটনে কিøক করতে হবে। যদি সব তথ্য ঠিক ঠিক ভাবে পূরন করা হয় তাহলে সাকসেসফুল নটিফিকেশন দেখাবে। নাহলে ফেইলড নামক নটিফিকেশন দেখাবে। তাহলেই ঐ এমপ্লয়ী বা চাকুরিজিবীর রেসপনসিবিলিটি হিসটরি এড হয়ে যাবে।। 
+                                        </p>
+                                        
+                                        <img  src="assets/images/employee promotion form.jpg" style="    width: 795px;">
+                                       
+                                         <p>
+                                         এরপরে সেইভ করা তথ্য গুলো এমপ্লয়ী রেসপনসিবিলিটি হিসটরি নামক টেবিলে দেখাবে। যদি ইনফরমেশন বা তথ্যে কোন ভুল থাকে তাহলে এডিট বাটনে ক্লিক করে আবার আগের মতো ফরমে তথ্য ঠিক করে সেইভ করা যাবে। আবার কোন এমপ্লয়ীর তথ্য বাদ দিতে হলে ডিলিট নামক বাটনে ক্লিক করলে তথ্য কি সত্যি ডিলিট করতে চাই কিনা? এই রকম একটা নটিফিকেশন আসবে ঐখানে হ্যা নামক বাটনে ক্লিক করলে তথ্য ডিলিটি হয়ে যাবে।এভাবেই এমপ্লয়ী রেসপনসিবিলিটি হিসটরিতে এমপ্লয়ীর তথ্য এড, ডিলিট এবং এডিট করা যাবে। 
+                                          </p>
+                                         
+                                          
+                                    
+                                 
+                                </div><!--//section-block-->
+                               
+                                    <!-- <h1>Print me</h1>  -->
+                                </div> 
+                                <button class="btn btn-primary"  id="print_installation"  onclick="printInstallation('printinstallation')" style="float: right;"><i class="fa fa-print" aria-hidden="true"></i></button>
+                            </section><!--//doc-section-->
+                             <section id="employees_promotion-section" class="doc-section">
+                                <div id="printinstallation"> 
+                                <h2 class="section-title">কিভাবে ইমপ্লোই প্রমোশন কনফিগার করবেন</h2>
+                                <div id="step1"  class="section-block">
+                                   
+                                    <p>প্রথমে এমপ্লয়ী নামক মডিউলে ক্লিক করলে অনেক গুলো অপশন থেকে এমপ্লয়ী রেসপনসিবিলিটি হিসটরি নামক অপশনে কিøক করতে হবে। </p>
+
+
+                                     <img  src="assets/images/employee promotion_add.jpg" style="    width: 795px;">
+                                        <p> 
+                                          এরপর এমপ্লয়ী রেসপনসিবিলিটি হিসটরি নামক পেইজ টি আসবে। এরপর উপরের ডান পাশে এড এমপ্লয়ী রেসপনসিবিলিটি হিসটরি নামক বাটনে ক্লিক করতে হবে। তারপর একটি এড ফরম আসবে। এখানে প্রথম ফিল্ড হচ্ছে ব্রান্স বা শাখা।  এখানে প্রথমে যে এমপ্লয়ীর দায়িত্ব তথা রেসপনসিবিলিটি থাকবে তার ব্রান্স বা শাখার নাম দিতে হবে। তারপরের ফিল্ড হচ্ছে এমপ্লয়ীর নাম। এখানে এমপ্লয়ীর নাম দিতে হবে। তারপরের ফিল্ড হচ্ছে কোন তারিখ হতে তার রেসপনসিবিলিটি বা দায়িত্ব শুরু হবে তার তারিখ উল্লেখ বা এন্ট্রি করে দিতে হবে। তার পরের ফিল্ড হচ্ছে কোন তারিখে তার (এমপ্লয়ীর) দায়িত্ব বা রেসপনসিবিলিটি শেষ হবে তার তারিখ এড বা লিখে দিতে হবে।এভাবে সবগুলো ফিল্ড পূরন করা হয়ে গেলে সেইভ নামক বাটনে কিøক করতে হবে। যদি সব তথ্য ঠিক ঠিক ভাবে পূরন করা হয় তাহলে সাকসেসফুল নটিফিকেশন দেখাবে। নাহলে ফেইলড নামক নটিফিকেশন দেখাবে। তাহলেই ঐ এমপ্লয়ী বা চাকুরিজিবীর রেসপনসিবিলিটি হিসটরি এড হয়ে যাবে।। 
+                                        </p>
+                                        
+                                        <img  src="assets/images/employee promotion form.jpg" style="    width: 795px;">
+                                       
+                                         <p>
+                                         এরপরে সেইভ করা তথ্য গুলো এমপ্লয়ী রেসপনসিবিলিটি হিসটরি নামক টেবিলে দেখাবে। যদি ইনফরমেশন বা তথ্যে কোন ভুল থাকে তাহলে এডিট বাটনে ক্লিক করে আবার আগের মতো ফরমে তথ্য ঠিক করে সেইভ করা যাবে। আবার কোন এমপ্লয়ীর তথ্য বাদ দিতে হলে ডিলিট নামক বাটনে ক্লিক করলে তথ্য কি সত্যি ডিলিট করতে চাই কিনা? এই রকম একটা নটিফিকেশন আসবে ঐখানে হ্যা নামক বাটনে ক্লিক করলে তথ্য ডিলিটি হয়ে যাবে।এভাবেই এমপ্লয়ী রেসপনসিবিলিটি হিসটরিতে এমপ্লয়ীর তথ্য এড, ডিলিট এবং এডিট করা যাবে। 
+                                          </p>
+                                         
+                                          
+                                    
+                                 
+                                </div><!--//section-block-->
+                               
+                                    <!-- <h1>Print me</h1>  -->
+                                </div> 
+                                <button class="btn btn-primary"  id="print_installation"  onclick="printInstallation('printinstallation')" style="float: right;"><i class="fa fa-print" aria-hidden="true"></i></button>
+                            </section><!--//doc-section-->
+                      
+
+                            
+                             <section id="employees_regign-section" class="doc-section">
+                                <div id="printinstallation"> 
+                                <h2 class="section-title">কিভাবে এমপ্লয়ী রিজাইন/টারমিনেশন কনফিগার করবেন</h2>
+                                <div id="step1"  class="section-block">
+                                   
+                                    <p>এমপ্লয়ী মডিউলে  মাউস পয়েন্টার  রাখলে এমপ্লয়ী রিজাইন/টারমিনেশন লেখাটি দেখতে পাবো।</p>
+
+
+                                     <img  src="assets/images/employee_resign_list.png" style="    width: 795px;">
+                                        <p> 
+                                            ক্লিক ক্লিক করার সাথে সাথে যে সব এমপ্লয়ীরা চাকরীচূত হয়েছে তাদের ১টা তালিকা দেখতে পাবো । 
+                                        </p>
+                                        <img  src="assets/images/emloyee_resign_report.png" style="    width: 795px;">
+                                        <p>
+                                            যদি কোনো নির্দিষ্ট এমপ্লয়ীর তথ্য জানতে চাই তাহলে ওই এমপ্লয়ীর কোড এবং ব্রাঞ্চ নাম দিয়ে সার্চ করতে হবে ।
+                                        </p>
+                                        <img  src="assets/images/employee_regign_search.png" style="    width: 795px;">
+                                       
+                                         <p>
+                                          তথ্য অ্যাড করার সময় যদি কোনো ভুল হয়ে থাকে তাহলে তা ডিলিট করে পুনরায় অ্যাড করবো অথবা এডিট করে দিবো । টেবিল এর ডান সাইডে অ্যাকশন লেখার নিচে যে লাল বাটন বা ডিলিট এর আইকন আছে ওই বাটন এ ক্লিক করলে ডিলিট অপারেশন কমপ্লিট হবে । 
+                                          </p>
+                                            <img  src="assets/images/employee_regin_delete.png" style="    width: 795px;">
+                                          <p>
+                                          <p>
+                                            ডিলিট বাটন এর পাশেই এডিট বাটন ওই বাটন এ ক্লিক করলে ১টা ফর্ম আসবে এরপর সঠিক তথ্য দিয়ে ফর্ম পূরণ করে সেভ করতে হবে ।
+                                        </p>
+                                        <img  src="assets/images/employee_regign_edit.png" style="    width: 795px;">
+
+                                        <p>
+                                        <p>
+                                         এরপর আসি যদি কোনো এমপ্লয়ী রেজাইন নে তাকে অ্যাড দিতে হবে অ্যাড নিউ বাটন করুন |
+                                        </p>
+                                         <img  src="assets/images/employee_resign_add_btn.png" style="    width: 795px;">
+                                         <p>
+                                            ক্লিক করলে ১টা ফর্ম দেখতে পাবো এরপর ব্রাঞ্চ নাম এবং এমপ্লয়ী সিলেক্ট  করলে ১টা টেবিল জেনারেট হবে টেবিল থেকে তথ্য গুলো সঠিক আছে কিনা তা চেক করে সেভ বাটন এ ক্লিক করবো । এভাবে এমপ্লয়ী রেজাইন/টারমিনেশন এর কাজ শেষ ।
+                                         </p>
+                                           <img  src="assets/images/employee_resign_add.png" style="    width: 795px;">
+                                    
+                                 
+                                </div><!--//section-block-->
+                               
+                                    <!-- <h1>Print me</h1>  -->
+                                </div> 
+                                <button class="btn btn-primary"  id="print_installation"  onclick="printInstallation('printinstallation')" style="float: right;"><i class="fa fa-print" aria-hidden="true"></i></button>
+                            </section><!--//doc-section-->
+                      
+
+                           
+                           
+                            
                             <section id="icons-section" class="doc-section">
                                 <h2 class="section-title">Icons</h2>
                                 <div class="section-block">
@@ -579,7 +469,9 @@ echo $y;
                                 
                             </section><!--//doc-section-->
                             
-                            </section><!--//doc-section-->
+                           
+                            </div>
+                              <button class="btn btn-primary " id="print_fullpage" onclick="printFullpage('printfullpage')" style="float: right;"><i class="fa fa-print" aria-hidden="true"></i> </button>
                         </div><!--//content-inner-->
                     </div><!--//doc-content-->
                     <!--//doc-sidebar-->
@@ -638,5 +530,36 @@ echo $y;
     <script type="text/javascript" src="assets/js/main.js"></script>
     
 </body>
+<script type="text/javascript">
+ function printInstallation(divName) 
+ { 
+     var printContents = document.getElementById(divName).innerHTML; 
+     var originalContents = document.body.innerHTML;
+      document.body.innerHTML = printContents;
+       window.print();
+        document.body.innerHTML = originalContents; 
+}
+function printContent(divName) 
+ { 
+     var printContents = document.getElementById(divName).innerHTML; 
+     var originalContents = document.body.innerHTML;
+      document.body.innerHTML = printContents;
+       window.print();
+        document.body.innerHTML = originalContents; 
+}
+
+
+function printFullpage(divName) 
+ {  
+     $("#print_content").hide();
+     $("#print_installation").hide();
+     var printContents = document.getElementById(divName).innerHTML; 
+     var originalContents = document.body.innerHTML;
+     document.body.innerHTML = printContents;
+     window.print();
+     document.body.innerHTML = originalContents; 
+}
+
+</script>
 </html> 
 
