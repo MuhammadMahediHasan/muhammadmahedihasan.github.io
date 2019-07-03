@@ -19,7 +19,9 @@ body {
 html, body {
   height: 100%;
 }
-
+ a.menu-style:hover{
+   color: #75c181  !important;
+}
 .page-wrapper {
   min-height: 100%;
   /* equal to footer height */
