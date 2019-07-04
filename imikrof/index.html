@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>iMikrof Documentation</title>
+    <title>iMiKrof</title>
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,49 +14,62 @@
     <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
     <!-- Global CSS -->
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <!-- Plugins CSS -->    
-    <link rel="stylesheet" href="assets/plugins/prism/prism.css">
-    <link rel="stylesheet" href="assets/plugins/elegant_font/css/style.css">  
-      
+    <link rel="stylesheet" href="assets/plugins/elegant_font/css/style.css">    
     <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    
 </head> 
 
-<body class="body-green">
+<body class="landing-page">   
+	
+	<!-- GITHUB BUTTON JS -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+     
+    <!--FACEBOOK LIKE BUTTON JAVASCRIPT SDK-->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    
     <div class="page-wrapper">
+        
         <!-- ******Header****** -->
-        <header id="header" class="header">
+       <header id="header" class="header">
             <div class="container">
-                <div class="branding">
-                    <h1 class="logo">
-                        <a href="index.html">
-                            <!-- <span aria-hidden="true" class="icon_documents_alt icon"></span>
-                            <span class="text-highlight">Pretty</span><span class="text-bold">Docs</span> -->
-                            <img src="assets/images/mikrof_logo2.png">
-                        </a>
-                    </h1>
-                    
-                </div><!--//branding-->
-                
-                <ol class="breadcrumb" style="background: #494d55;">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item"><a href="">Documentation</a></li>
-                    <li class="breadcrumb-item"><a href="">Bangla Version</a></li>
-                </ol>
-                
-                <div class="top-search-box">
-	                 <form class="form-inline search-form justify-content-center" action="" method="get">
-			           <!--  <input type="text" placeholder="Search..." name="search" class="form-control search-input">
-			            <button type="submit" class="btn search-btn" value="Search"><i class="fas fa-search"></i></button> -->
-			            <button type="submit" class="btn search-btn demo_button" value="Search">See Free Demo</i></button>
-			        </form>
+                <div class="row text-center">
+                  <div class="col-lg-3">
+                    <div class="branding">
+                        <h1 class="logo">
+                            <a href="index.html">
+                                <img src="assets/images/mikrof_logo2.png">
+                            </a>
+                        </h1>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <h2 class="text-center" style="color: #75c181;">Loan and Saving Management System</h2>
+                    <p>Developed specially for the Microfinance industry.</p>
+                    <p>Cloud based lending software that is secure and easy to use.</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="top-search-box">
+                      <form class="form-inline search-form justify-content-center" action="" method="get">
+                        <button type="submit" class="btn search-btn demo_button" value="Search">See Free Demo</button>
+                      </form>
+                    </div>
+                  </div>
                 </div>
-                
             </div><!--//container-->
         </header><!--//header-->
+
         <nav class="navbar navbar-default header_menu">
             <ul class="nav navbar-nav" style="margin-left: -52%;display: inline;">
               <li class="active"><a href="#"><span class="menu_title">Home</span></a></li>
@@ -64,1279 +77,62 @@
               <li><a href="#"><span class="menu_title">Team</span></a></li>
               <li class="dropdown"><a href="#"><span class="menu_title dropbtn">Documentation &nbsp;<i class="fas fa-angle-down"></i></span></a>
                 <div class="dropdown-content">
-                    <a href="#">Bangla Version</a>
+                    <a href="bangla_document.html">Bangla Version</a>
                     <a href="#">English Version</a>
                 </div>
               </li>
 
             </ul>
-
-        </nav>
-        <div class="doc-wrapper">
-            <div class="container">
-                <div id="doc-header" class="doc-header text-center">
-                    <h1 class="doc-title"><i class="fas fa-book-open"></i> User Manual ( Bangla Version ) </h1>
-                    <div class="meta"> কিভাবে আপনি সফটওয়্যার টি ব্যবহার করবেন  ?</div>
-                </div><!--//doc-header-->
-                <div class="doc-body row">
-                    <div class="doc-sidebar col-md-3 col-12 order-0 d-none d-md-flex" style="overflow-y: auto;">
-                        <div id="doc-nav" class="doc-nav">
-                            
-                                <nav id="doc-menu" class="nav doc-menu flex-column sticky">
-                                    <!-- <a class="nav-link scrollto" href="#download-section">Download</a> -->
-                                    <a class="nav-link scrollto" href="#installation-section"><b>Admin</b></a>
-                                    <nav id="doc-menu" class="nav doc-menu flex-column sticky">
-                                        <a class="nav-link scrollto menu-style" href="#step1"><i class="fas fa-angle-right"></i>&nbsp;Login</a>
-                                       <!--  <a class="nav-link scrollto menu-style" href="#step2"><i class="fas fa-angle-right"></i>&nbsp;Logout </a> -->
-                                       
-                                    </nav><!--//nav-->
-                                    <a class="nav-link scrollto" href="#code-section"><b>RBAC</b></a>
-                                    <nav id="doc-menu" class="nav doc-menu flex-column sticky">
-                                        <a class="nav-link scrollto menu-style" href="#employees_add-section"><i class="fas fa-angle-right"></i>&nbsp;Employees</a>
-                                        <!-- <a class="nav-link scrollto menu-style" href="#css"><i class="fas fa-angle-right"></i>&nbsp;Create Permission</a>
-                                        <a class="nav-link scrollto menu-style" href="#sass"><i class="fas fa-angle-right"></i>&nbsp;Create Role</a>
-                                        <a class="nav-link scrollto menu-style" href="#less"><i class="fas fa-angle-right"></i>&nbsp;Permission Role</a> -->
-                                        <a class="nav-link scrollto menu-style" href="#user_access-section"><i class="fas fa-angle-right"></i>&nbsp;User Access</a>
-                                        
-                                    </nav><!--//nav-->
-                                 <!--    <a class="nav-link scrollto" href="#code-section"><b>Config</b></a>
-                                    <nav  id="doc-menu" class="nav doc-menu flex-column sticky">
-                                        <a class="nav-link scrollto menu-style" href="#html"><i class="fas fa-angle-right"></i>&nbsp;General Configaration</a>
-                                        <a class="nav-link scrollto menu-style" href="#css"><i class="fas fa-angle-right"></i>&nbsp;funding organization</a>
-                                        <a class="nav-link scrollto menu-style" href="#sass"><i class="fas fa-angle-right"></i>&nbsp;holiday configaration</a>
-                                        <a class="nav-link scrollto menu-style" href="#less"><i class="fas fa-angle-right"></i>&nbsp;software overview configaration</a>
-                                        <a class="nav-link scrollto menu-style" href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;error log</a>
-                                        <a class="nav-link scrollto menu-style" href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;backup</a>
-                                        <a class="nav-link scrollto menu-style" href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;branch opening saving</a>
-                                        <a class="nav-link scrollto menu-style" href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;branch opening loan</a>
-                                        <a class="nav-link scrollto menu-style" href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;branch opening members</a>
-                                        <a class="nav-link scrollto menu-style" href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;brach wise day back permission</a>
-                                    <a class="nav-link scrollto" href="#code-section"><b>Address Configaration</b></a> -->
-                                  <!--   <nav  class="doc-sub-menu nav flex-column">
-                                        <a class="nav-link scrollto menu-style" href="#html"><i class="fas fa-angle-right"></i>&nbsp;Divison</a>
-                                        <a class="nav-link scrollto menu-style" href="#css"><i class="fas fa-angle-right"></i>&nbsp;District</a>
-                                        <a class="nav-link scrollto menu-style" href="#sass"><i class="fas fa-angle-right"></i>&nbsp;Thana</a>
-                                        <a class="nav-link scrollto menu-style" href="#less"><i class="fas fa-angle-right"></i>&nbsp;Union/Ward</a>
-                                        <a class="nav-link scrollto menu-style" href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;Village/Blocks</a>
-                                        <a class="nav-link scrollto menu-style" href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;Wokring Area</a>
-                                       
-                                        
-                                    </nav> --><!--//nav-->
-                                    <!--  <a class="nav-link scrollto" href="#code-section"><b>Loan Savings And Insurance</b></a>
-                                    <nav  class="doc-sub-menu nav flex-column">
-                                        <a class="nav-link scrollto menu-style" href="#html"><i class="fas fa-angle-right"></i>&nbsp;Saving Product</a>           
-                                    </nav> --><!--//nav-->
-                                    <!-- <a class="nav-link scrollto" href="#code-section"><b>Loan</b></a>
-                                    <nav  class="doc-sub-menu nav flex-column">
-                                        <a class="nav-link scrollto menu-style" href="#html"><i class="fas fa-angle-right"></i>&nbsp;Loan General Configaration</a>
-                                        <a class="nav-link scrollto menu-style" href="#css"><i class="fas fa-angle-right"></i>&nbsp;Loan Purpose Category</a>
-                                        <a class="nav-link scrollto menu-style" href="#sass"><i class="fas fa-angle-right"></i>&nbsp; Loan Purpose </a>
-                                        <a class="nav-link scrollto menu-style" href="#less"><i class="fas fa-angle-right"></i>&nbsp;Loan Product Category</a>
-                                        <a class="nav-link scrollto menu-style" href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;Loan Product</a>
-                                    
-                                       
-                                        
-                                    </nav> --><!--//nav-->                          
-                                    <!--  <a class="nav-link scrollto" href="#code-section"><b>Office Configaration</b></a>
-                                    <nav  class="doc-sub-menu nav flex-column">
-                                        <a class="nav-link scrollto menu-style" href="#html"><i class="fas fa-angle-right"></i>&nbsp; disional office/regional office</a>
-                                        <a class="nav-link scrollto menu-style" href="#css"><i class="fas fa-angle-right"></i>&nbsp;Zone</a>
-                                        <a class="nav-link scrollto menu-style" href="#sass"><i class="fas fa-angle-right"></i>&nbsp;Area </a>
-                                        <a class="nav-link scrollto menu-style" href="#less"><i class="fas fa-angle-right"></i>&nbsp;Barnch</a>
-                                        <a class="nav-link scrollto menu-style" href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;Loan Product</a>
-                                    
-                                       
-                                        
-                                    </nav> --><!--//nav-->   
-                                    <!-- <a class="nav-link scrollto" href="#code-section"><b>Loan & Saving Migration</b></a>
-                                    <nav  class="doc-sub-menu nav flex-column">
-                                        <a class="nav-link scrollto menu-style" href="#html"><i class="fas fa-angle-right"></i>&nbsp; Member Migration </a>
-                                        <a class="nav-link scrollto menu-style" href="#css"><i class="fas fa-angle-right"></i>&nbsp;Loan & Savings Migration</a>
-                                       
-                                    
-                                       
-                                        
-                                    </nav> --><!--//nav-->  
-                                     <!-- <a class="nav-link scrollto" href="#code-section"><b>Report Configaraton</b></a>
-                                    <nav  class="doc-sub-menu nav flex-column">
-                                        <a class="nav-link scrollto menu-style" href="#html"><i class="fas fa-angle-right"></i>&nbsp; POMIS-3</a>
-                                      
-                                    </nav> --><!--//nav-->   
-                                  <!--   </nav> --><!--//nav-->
-                                       <a class="nav-link scrollto" href="#code-section"><b>Employees</b></a>
-                                    <nav id="doc-menu" class="nav doc-menu flex-column sticky">
-                                        <a class="nav-link scrollto menu-style" href="#employees_depatment-section"><i class="fas fa-angle-right"></i>&nbsp;Employee Department </a>
-                                        <a class="nav-link scrollto menu-style" href="#css"><i class="fas fa-angle-right"></i>&nbsp; Emploee Designation
-                                        </a>
-                                        <a class="nav-link scrollto menu-style" href="#sass"><i class="fas fa-angle-right"></i>&nbsp;Holiday Configaration</a>
-                                        <a class="nav-link scrollto menu-style" href="#less"><i class="fas fa-angle-right"></i>&nbsp;Software Overview Configaration</a>
-                                        <a class="nav-link scrollto menu-style" href="#employees_reponsibility-section"><i class="fas fa-angle-right"></i>&nbsp;Employee Responsible History</a>
-                                        <a class="nav-link scrollto menu-style" href="#employees_promotion-section"><i class="fas fa-angle-right"></i>&nbsp;Employee Promotion</a>
-                                        <a class="nav-link scrollto menu-style" href="#employees_regign-section"><i class="fas fa-angle-right"></i>&nbsp;Employee Resign/Termination</a>
-                                        
-                                        
-                                    </nav><!--//nav-->
-                                   <a class="nav-link scrollto" href="#code-section"><b>Samity</b></a>
-                                    <nav id="doc-menu" class="nav doc-menu flex-column sticky">
-                                        <a class="nav-link scrollto menu-style" href="#samity_section"><i class="fas fa-angle-right"></i>&nbsp;Samity </a>
-                                        <a class="nav-link scrollto menu-style" href="#css"><i class="fas fa-angle-right"></i>&nbsp; Samity Transfer
-                                        </a>
-                                        <a class="nav-link scrollto menu-style" href="#samity_field_officer_section"><i class="fas fa-angle-right"></i>&nbsp;Samity Field Office Change</a>
-                                        <a class="nav-link scrollto menu-style" href="#samity_day_change_sectio"><i class="fas fa-angle-right"></i>&nbsp;Samity Day Change</a>
-                                        <a class="nav-link scrollto menu-style" href="#samity_closing-section"><i class="fas fa-angle-right"></i>&nbsp;Samity Closing</a>
-                                    
-                                        
-                                        
-                                    </nav><!--//nav-->
-                                      <a class="nav-link scrollto" href="#code-section"><b>Member</b></a>
-                                    <nav id="doc-menu" class="nav doc-menu flex-column sticky">
-                                        <a class="nav-link scrollto menu-style" href="#member_info-section"><i class="fas fa-angle-right"></i>&nbsp;Member Information </a>
-                                        <a class="nav-link scrollto menu-style" href="#member_info_search"><i class="fas fa-angle-right"></i>&nbsp; Member Information By National Id
-                                        </a>
-                                        <a class="nav-link scrollto menu-style" href="#sass"><i class="fas fa-angle-right"></i>&nbsp;Member Samity Transfer</a>
-                                        <a class="nav-link scrollto menu-style" href="#less"><i class="fas fa-angle-right"></i>&nbsp;Member Primary Product Transfer</a>
-                                        <a class="nav-link scrollto menu-style" href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;Member Closing</a>
-                                        <a class="nav-link scrollto menu-style" href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;Member Attendances</a>
-                                        <a class="nav-link scrollto menu-style" href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;Member Attendances Report</a>
-                                        
-                                        
-                                    </nav><!--//nav-->
-                                  <!--    <a class="nav-link scrollto" href="#code-section"><b>Savings</b></a>
-                                    <nav id="doc-menu" class="nav doc-menu flex-column sticky">
-                                        <a class="nav-link scrollto menu-style" href="#html"><i class="fas fa-angle-right"></i>&nbsp;Savings  </a>
-                                        <a class="nav-link scrollto menu-style" href="#css"><i class="fas fa-angle-right"></i>&nbsp; Savings Deposite
-                                        </a>
-                                        <a class="nav-link scrollto menu-style" href="#sass"><i class="fas fa-angle-right"></i>&nbsp;Savings Withdraw</a>
-                                        <a class="nav-link scrollto menu-style" href="#less"><i class="fas fa-angle-right"></i>&nbsp;Savings Closing</a>
-                                        <a class="nav-link scrollto menu-style" href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;Savings Status</a>
-                                        <a class="nav-link scrollto menu-style" href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;Savings Interest Calculation</a>
-                                        <a class="nav-link scrollto menu-style" href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;Savings Adjustment</a>
-                                        
-                                        
-                                    </nav> --><!--//nav-->
-                                <!--      <a class="nav-link scrollto" href="#code-section"><b>Loan</b></a>
-                                    <nav id="doc-menu" class="nav doc-menu flex-column sticky">
-                                        <a class="nav-link scrollto menu-style" href="#html"><i class="fas fa-angle-right"></i>&nbsp;Regular Loan Account   </a>
-                                        <a class="nav-link scrollto menu-style" href="#css"><i class="fas fa-angle-right"></i>&nbsp; OneTime Loan Account
-                                        </a>
-                                        <a class="nav-link scrollto menu-style" href="#sass"><i class="fas fa-angle-right"></i>&nbsp;Regular Loan Transaction</a>
-                                        <a class="nav-link scrollto menu-style" href="#less"><i class="fas fa-angle-right"></i>&nbsp;Death Member Registration</a>
-                                        <a class="nav-link scrollto menu-style" href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;OneTime Loan Transaction</a>
-                                        <a class="nav-link scrollto menu-style" href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;Loan Rescheulde</a>
-                                        <a class="nav-link scrollto menu-style" href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;Overdue Loan Collection</a>
-                                        <a class="nav-link scrollto menu-style" href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;Loan Rebetes</a>
-                                        <a class="nav-link scrollto menu-style" href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;Loan Wiver For Death Member</a>
-                                         <a class="nav-link scrollto menu-style" href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;Loan Adjustment</a>
-                                        <a class="nav-link scrollto menu-style" href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;Loan Write Of Eligible</a>
-                                        <a class="nav-link scrollto menu-style" href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;Loan Write Off Collection</a>
-                                        <a class="nav-link scrollto menu-style" href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;Loan Status</a>
-                                        
-                                        
-                                    </nav> --><!--//nav-->
-                                      <!-- <a class="nav-link scrollto" href="#code-section"><b>Process</b></a>
-                                    <nav id="doc-menu" class="nav doc-menu flex-column sticky">
-                                        <a class="nav-link scrollto menu-style" href="#html"><i class="fas fa-angle-right"></i>&nbsp;Auto Process   </a>
-                                        <a class="nav-link scrollto menu-style" href="#css"><i class="fas fa-angle-right"></i>&nbsp; Transaction Authorization 
-                                        </a>
-                                        <a class="nav-link scrollto menu-style" href="#sass"><i class="fas fa-angle-right"></i>&nbsp;  Transaction Unauthorization</a>
-                                        <a class="nav-link scrollto menu-style" href="#less"><i class="fas fa-angle-right"></i>&nbsp;Death Member Registration</a>
-                                        <a class="nav-link scrollto menu-style" href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;Day End Process</a>
-                                        <a class="nav-link scrollto menu-style" href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;Month End Process</a>
-                                        <a class="nav-link scrollto menu-style" href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;Passbook Balance</a>
-                                       
-                                        
-                                        
-                                    </nav> --><!--//nav-->
-                                 
-                                </nav><!--//doc-menu-->
-                            
-                        </div>
-                    </div>
-                    <div class="doc-content col-md-9 col-12 order-1">
-                         <button class="btn btn-primary " id="print_fullpage" onclick="printFullpage('printfullpage')" style="float: right;"><i class="fa fa-print" aria-hidden="true"></i> </button>
-                        <div class="content-inner">
-                            <div id="printfullpage">
-                            <div id="printcontent">
-                            <section id="general-template" class="doc" style="border-left: 2px solid #b7b7b7;padding-left: 15px;">
-                              <div class="page-header">
-                                <h3>সূচিপত্র </h3>
-
-                                <table class='table'>
-                                        <thead>
-                                            <th>বিষয়</th>
-                                            <th>পৃষ্ঠা </th>
-                                        </thead>
-                                          <tbody>
-                                             <tr>
-                                                <td><a class="nav-link scrollto" href="#intro_section">ভূমিকা</a></td>
-                                                <td>1</td>
-                                            </tr>
-                                            <tr>
-                                                <td><a class="nav-link scrollto" href="#installation-section">কিবাবে সফ্টওয়ার এ লগইন করবেন ?</a></td>
-                                                <td>1</td>
-                                            </tr>
-                                                 <tr>
-                                              <td> 
-                                                <a class="nav-link scrollto" href="#employees_add-section">কিভাবে এমপ্লয়ীজ কনফিগার করবেন ?
-                                               </a>
-                                              </td>
-                                              <td>1</td>
-                                            </tr>
-                                            <tr>
-                                                <td><a class="nav-link scrollto" href="#user_access-section">কিভাবে ইউজার এক্সেস কনফিগার করবেন ?</a> </td>
-                                                <td>1</td>
-                                            </tr>
-                                              <tr>
-                                              <td> 
-                                                <a class="nav-link scrollto" href="#employees_depatment-section">কিভাবে  ইমপ্লোই ডিপার্টমেন্ট কনফিগার করবেন ?
-                                               </a>
-                                              </td>
-                                              <td>1</td>
-                                            </tr>
-                                            <tr>
-                                              <td> 
-                                                <a class="nav-link scrollto" href="#employees_designation_section">কিভাবে  ইমপ্লোই ডেজিগন্যাশন  কনফিগার করবেন ?
-                                               </a>
-                                              </td>
-                                              <td>1</td>
-                                            </tr>
-                                             <tr>
-                                              <td> 
-                                                <a class="nav-link scrollto" href="#employees_reponsibility-section">কিভাবে ইমপ্লোই রেস্পন্সিবিলিটি হিস্ট্রি কনফিগার করবেন ?
-                                               </a>
-                                              </td>
-                                              <td>1</td>
-                                            </tr>
-                                            <tr>
-                                              <td> 
-                                                <a class="nav-link scrollto" href="#employees_promotion-section">কিভাবে ইমপ্লোই প্রমোশন কনফিগার করবেন ?
-                                               </a>
-                                              </td>
-                                              <td>1</td>
-                                            </tr>
-
-                                            <tr>
-                                                <td>
-                                                    <a class="nav-link scrollto" href="#employees_regign-section">কিভাবে এমপ্লয়ী রিজাইন/টারমিনেশন কনফিগার করবেন ?
-                                                     </a>
-                                                 </td>
-                                                <td>1</td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <a class="nav-link scrollto" href="#samity_section">কিভাবে সমিতি কনফিগার করবেন?
-                                                     </a>
-                                                 </td>
-                                                <td>1</td>
-                                            </tr>
-                                            
-                                              <tr>
-                                                <td>
-                                                    <a class="nav-link scrollto" href="#samity_transfer_section">কিভাবে সমিতি ট্রান্সফার কনফিগার করতে হবে?
-                                                     </a>
-                                                 </td>
-                                                <td>1</td>
-                                            </tr>
-                                             <tr>
-                                                <td>
-                                                    <a class="nav-link scrollto" href="#samity_field_officer_section">কিভাবে সমিতি ফিল্ড অফিসার কনফিগার করতে হবে?
-                                                     </a>
-                                                 </td>
-                                                <td>1</td>
-                                            </tr>
-                                             <tr>
-                                                <td>
-                                                    <a class="nav-link scrollto" href="#samity_day_change_section">কিভাবে সমিতি ডে চেইন্জ কনফিগার করতে হবে?
-                                                     </a>
-                                                 </td>
-                                                <td>1</td>
-                                            </tr>
-                                              <tr>
-                                                <td>
-                                                    <a class="nav-link scrollto" href="#samity_closing-section">কিভাবে সমিতি ক্লোজ করতে হয়?
-                                                     </a>
-                                                 </td>
-                                                <td>1</td>
-                                            </tr> 
-                                             <tr>
-                                                <td>
-                                                    <a class="nav-link scrollto" href="#member_info-section">কিভাবে  মেম্বার ইনফরমেশন কনফিগার করতে হবে?
-                                                     </a>
-                                                 </td>
-                                                <td>1</td> 
-                                            </tr>
-                                             <tr>
-                                                <td>
-                                                    <a class="nav-link scrollto" href="#member_info_search">কিভাবে মেম্বার ইনফরমেনশন বাই ন্যাশনাল আইডি দিয়ে সার্চ করতে হবে?
-                                                     </a>
-                                                 </td>
-                                                <td>1</td>
-                                            </tr>
-                                              <tr>
-                                                <td>
-                                                    <a class="nav-link scrollto" href="#member_samity_transfer_section">কিভাবে মেম্বার সমিতি ট্রান্সফার কনফিগার করতে হবে?
-                                                     </a>
-                                                 </td>
-                                                <td>1</td>
-                                            </tr>
-                                              <tr>
-                                                <td>
-                                                    <a class="nav-link scrollto" href="#member_primary_product_transfer">কিভাবে মেম্বার প্রাইমারি প্রোডাক্ট ট্রান্সফার কনফিগার করতে হবে ?
-                                                     </a>
-                                                 </td>
-                                                <td>1</td>
-                                            </tr>
-                                              <tr>
-                                                <td>
-                                                    <a class="nav-link scrollto" href="#member_closing_section">কিভাবে মেম্বার ক্লোজ করতে হয় ?
-                                                     </a>
-                                                 </td>
-                                                <td>1</td>
-                                            </tr>
-                                               <tr>
-                                                <td>
-                                                    <a class="nav-link scrollto" href="#member_attendances_section">কিভাবে মেম্বার অ্যাটেনডেন্স নিতে হবে ?
-                                                     </a>
-                                                 </td>
-                                                <td>1</td>
-                                            </tr>
-                                               <tr>
-                                                <td>
-                                                    <a class="nav-link scrollto" href="#member_attendances_report_section">কিভাবে মেম্বার অ্যাটেনডেন্স রিপোর্ট দেখতে পাবেন  ?
-                                                     </a>
-                                                 </td>
-                                                <td>1</td>
-                                            </tr>
-                                               <tr>
-                                                <td>
-                                                    <a class="nav-link scrollto" href="#all_report">রিপোর্ট
-                                                     </a>
-                                                 </td>
-                                                <td>1</td>
-                                            </tr>
-      
-                                   
-                                        </tbody>      
-                                    </table>
-                              </div>
-                              </div>
-                      
-                            </section>
-                        
-                           
-                              <section id="intro_section" class="doc-section">
-                                <div id="printinstallation"> 
-                                <h2 class="section-title">ভূমিকা</h2>
-                                <div id="step1"  class="section-block">
-                                   
-                                    <p><b>ভুমিকা:</b> দেশের হ্মুদ্রঋণ কার্যক্রমকে আরও গতিশিল স্বচ্ছ ও যুগপোযোগি করতে টি এম এস আইমাইক্রপ সফটওয়ার নামে একটি অনলাইন সফটওয়ার তৈরি করেছে যা হ্মুদ্রঋণ কার্যক্রমের (এম,আই;এস)এবং(এ আই এস) ইন্ট্রিগ্রেসন  করবে এবং শাখার দৈনন্দিন কাজকে সহজ করে দিবে.  আই মাইক্রোফ সফটয়ার বড় বৈশিষ্ট হচ্চে ওয়েব এর মাধ্যেমে কাজ করা এতে ডাটা সিকিউরিটি সহ প্রতিমাসের শাখা এরিয়া জোন ও প্রধান কার্যালয় পর্যায়ের  সকল রিয়েলটাইম তথ্য রিপোর্ট সঠিক ও সুন্দর ভাবে পাওয়া যায়| 
-                                    </p>
-                                
-                                    <p><b>কিভাবে শুরু করবে:</b> আপনাকে টি এম এস এস  থেকে একটি লগইন  লিংক দেওয়া হবে সেইটা এড্রেস  বারে লিখে আইমাইক্রোফ   পেইজটিতে ওপেন করতে হবে| টি এম  এস এস  থেকে যে ইউজার্ নেইম এবং পাসওয়ার্ড টি পাওয়া যাবে  সেই খানে ইউযার এবং পাসওয়ার্ড ফিল্ড এর মদ্দে লিখে  লগইন করতে হবে |
-                                    </p>
-                                    <!-- <h1>Print me</h1>  -->
-                                    <img src="assets/images/introduction.png" style="    width: 795px;">
-                                    <p>চিত্রে লগইন পেইজিটি দেখানো হল</p>
-                                
-                                </div> 
-                           
-                            </section><!--//doc-section-->
-                            
-                            <section id="installation-section" class="doc-section">
-                                <div id="printinstallation"> 
-                                <h2 class="section-title">কিবাবে সফ্টওয়ার এ লগইন করবেন</h2>
-                                <div id="step1"  class="section-block">
-                                   
-                                    <p>IMirof সফটওয়্যার এ লগইন করার জন্য প্রথমে আপনার কম্পিউটারের  ইন্টারনেট কানেকশন নিশ্চিত করতে হবে। তারপর ইন্টারনেট ব্রাউজার ওপেন করতে হবে।সফটওয়্যারটির Recommended ইন্টারনেট ব্রাউজার হচ্ছে google Chorme। 
-                                    </p>
-                                    <div class="code-block">
-                                        <img src="assets/images/browser.png" style="    width: 795px;">
-                                      </div><!--//code-block-->
-                                        <p>ইন্টারনেট ব্রাউজার ওপেন করার পর ব্রাউজার  এর Address এ সফটওয়্যার এর Address লিখতে হবে।</p>
-                                        <img src="assets/images/login_browser.png" style="    width: 795px;">
-                                  
-                                </div><!--//section-block-->
-                                <p>Address লেখার পর কী-বোর্ডের ইন্টার কী প্রেস করতে হবে,প্রেস করার পর উক্ত সফটওয়্যার এ প্রবেশ করার জন্য একটি লগইন ফর্ম আসবে।
-                                </p>
-                                    <!-- <h1>Print me</h1>  -->
-                                    <img src="assets/images/login_from.png" style="    width: 795px;">
-                                <p>লগইন ফর্মে দুইটি টেক্সট বক্স আছে একটি Email Address এবং অপরটি  Password । উক্ত টেক্সট বক্সে ই-মেইল ও পাসওয়ার্ড দেওয়ার পর লগইন বাটন এ ক্লিক করতে হবে । ই-মেইল ও পাসওয়ার্ড যদি বৈধ হয় তা হলে সফটওয়্যারটি এক্সেস করার অনুমতি পাবেন। আর যদি বৈধ না হয় তাহলে পুনরায় লগইন ফর্মে ফেরত পাঠাবে।</p>
-                                </div> 
-                           
-                            </section><!--//doc-section-->
-                            
-                            <section id="user_access-section" class="doc-section">
-                                <h2 class="section-title">কিভাবে ইউজার এক্সেস কনফিগার করবেন</h2>
-                                <div class="section-block">
-                                   
-                                    <p>
-                                       ইউজার এক্সেস হচ্ছে সেখান থেকে কোনো ইউজার বা কোনো ইমপ্লয়ী কে তাদের রেজিগ্নেশান অর্থাৎ পদ মর্যাদা অনুযায়ী   বিভিন্ন পারমিশন দেয়া হয়। অর্থাৎ,  কোন কাজটা করতে পারবে আবার কোন কাজটা করতে পারবেনা সে পারমিশন দেয়া হয়। এক্ষেত্রে কোনো ইউজার অর্থাৎ ইমপ্লয়ী কে কোনো পারমিশন দিতে হলে RBAC তে মাউস পয়েন্টার রেখে ইউজার এক্সেস এ ক্লিক করতে হবে।
-                                    </p>
-
-                                       <img  src="assets/images/user_access_list.png" style="    width: 795px;">
-                                     <p>
-                                       ক্লিক করার পর ইউজার লিস্ট আসবে। সেখানে ইউজার এক্সেস এর সকল তথ্য পাওয়া যাবে। কোনো তথ্য যদি ডিলিট করার প্রয়োজন হয় তাহলে মনিটরের পর্দার ডান পাশের (Delete) বাটনে ক্লিক করে ডিলিট  করা যাবে। 
-                                     </p>
-                                        <img  src="assets/images/user_access_report.png" style="    width: 795px;">
-                                    <p>
-                                         নতুন করে কোনো ইউজার অ্যাড করতে হলে ইউজার এক্সেস বাটনে ক্লিক করতে হবে।ক্লিক করার পর একটি ফর্ম আসবে।প্রথমে সেখান থেকে যে ইমপ্লয়ী কে পারমিশন দেয়া হবে সে  ইমপ্লয়ীর  ব্রাঞ্চ নেইম সিলেক্ট করতে হবে।  ব্রাঞ্চ নেইম সিলেক্ট করার পর ওই ইমপ্লয়ীর নেইম সিলেক্ট করতে হবে। তারপর কি ধরণের পারমিশন দেয়া হবে তা সিলেক্ট করতে হবে। এবং সব শেষ সেভ বাটনে ক্লিক করলে পারমিশন সম্পন্ন হবে। তারপর তা লিস্ট এ অ্যাড হয়ে যাবে। 
-                                    </p> 
-                                  
-                                     <img  src="assets/images/user_access_add.png" style="    width: 795px;">
-                                   
-                                    
-                                </div><!--//section-block-->
-                             
-                              
-                              
-                            </section><!--//doc-section-->
-                              <section id="employees_add-section" class="doc-section">
-                                <div id="printinstallation"> 
-                                <h2 class="section-title">কিভাবে এমপ্লয়ীজ কনফিগার করবেন ?</h2>
-                                <div id="step1"  class="section-block">
-                                   
-                                    <p>এই মেনু থেকে সাধারনত Employee তথ্য জমা রাখা হয় এবং প্রয়োজনে Emloyee এর তথ্য পরিবর্তন ও মুছে দেওয়া যায়।  </p>
-
-
-                                     <img  src="assets/images/employee_list.jpg" style="    width: 795px;">
-                                        <p> 
-                                           Employee টেবিলের ডান পাশে Add Employee বাটন আছে।উক্ত বাটনে ক্লিক করে আমরা নতুন Employee এর তথ্য জমা করতে পারি।Add Employe বাটনে ক্লিক করলে একটি ফর্ম দেখতে পাবেন।ফর্মটি পূরনের মাধ্যমে নতুন কর্মচারীর তথ্য জমা রাখা হয়। 
-                                        </p>
-                                        
-                                        
-                                          <img  src="assets/images/employe_add_btn.jpg" style="    width: 795px;">
-                                        <p>
-                                           Employee টেবিলে Action নামে একটি কলাম আছে ,যেখানে দুইটি বাটন আছে যথক্রমে Edit,Delete.কোন একজন কর্মচারীর তথ্য পরিবর্তন করার প্রোয়জন হলে Edit বাটন ক্লিক করতে হবে।
-                                        </p>
-                                        <img  src="assets/images/employee_edit.png" style="    width: 795px;">
-                                    
-                                         <p>Edit বাটনে ক্লিক করার পর একটি ফর্ম আসবে,উক্ত ফর্মে কর্মচারীর আগের তথ্য গুলা আসবে, সেখান থেকে প্রোয়জনীয় তথ্য যুক্ত করে Edit ফর্মের নিচে Update নামে একটি বাটন আছে ওই বাটনে ক্লিক করলে পরিবর্তিত তথ্য সেভ হবে।
-
-                                        খন আমরা যদি কোন কর্মচারীর তথ্য মুছে ফেলতে চাই তবে Delete  বাটনটি ক্লিক করে তথ্য মুছে দিতে পারি ।
-
-                                        Employee টে্বিল থেকে কোন emloyee  এর  তথ্য খুজে বের করতে হলে employee  টেবিল এর  সার্চ বক্সে employee এর নাম,পদবী এবং ব্রাঞ্জ এর নাম সিলেক্ট করে সার্চ বাটনে ক্লিক করতে হবে।সার্চ বাটনে ক্লিক করলে উক্ত employee এর তথ্য পাওয়া যাবে।
-
-                                         </p>
-                                        
-                                        
-                                       
-                                    
-                                 
-                                </div><!--//section-block-->
-                               
-                                    <!-- <h1>Print me</h1>  -->
-                                </div> 
-                                
-                            </section><!--//doc-section-->
-
-                              <section id="employees_depatment-section" class="doc-section">
-                                <div id="printinstallation"> 
-                                <h2 class="section-title">কিভাবে  ইমপ্লোই ডিপার্টমেন্ট কনফিগার করবেন ?</h2>
-                                <div id="step1"  class="section-block">
-                                   
-                                    <p>Employees Department- এর মধ্যে একটা কোম্পানির সবগুলো ডিপার্টমেন্টের নাম থাকবে এবং ইউজার এডমিন তাদের প্রয়োজন মতে ডিপার্টমেন্ট সংযোগ করতে পারবে এবং কি প্রয়োজন হলে ডিপার্টমেন্ট এর নাম সংশোধন ও ডিলিট করতে পারবে।Employees Department এ যে ডিপার্টমেন্ট গুলো এড করা হবে তা সবগুলো ডিপার্টমেন্ট একটা টেবিলে প্রদর্শন করবে </p>
-
-
-                                     <img  src="assets/images/employee_resign_list.png" style="    width: 795px;">
-                                        <p> 
-                                            এ ডিপার্টমেন্ট এড করার পদ্ধতিঃ প্রথমে Employee মেনু থেকে Employees Department এ ক্লিক করে Employees Department প্রবেশ করতে হবে। তারপর Employees Department Data Table এর ডান পাশের +Add new Department বাটনে ক্লিক করলে একটা মোডাল প্রদর্শন হবে, যেখানে “Enter Employee Department name and click Save”  একটি ফরম আসবে সেখানে Department এর নিচে ইনপুট ফিল্ডে Department এর নাম লেখতে হবে তার পর নিচের Save বাটনে ক্লিক করে Add new Department সম্পূর্ণ করতে হবে ।
-                                        </p>
-                                        
-                                        
-                                          <img  src="assets/images/employee_department_add.png" style="    width: 795px;">
-                                        <p>
-                                            Employees Department এর ডিপার্টমেন্ট সংশোধন বা ডিলিট করার জন্য Employees Department Data Table এর ডান পাশের Action নামের কলামের এডিট বাটনে ক্লিক করে ডিপার্টমেন্টের নাম সংশোধন করা যাবে এবং ডিলিট বাটনে ক্লিক করলে ডিপার্টমেন্ট টি ডিলিট হয়ে যাবে।
-                                        </p>
-                                        <img  src="assets/images/employee_regign_search.png" style="    width: 795px;">
-         
-                                 
-                                </div><!--//section-block-->
-                               
-                                    <!-- <h1>Print me</h1>  -->
-                                </div> 
-
-                            </section><!--//doc-section-->
-
-                               <section id="employees_designation_section" class="doc-section">
-                                <div id="printinstallation"> 
-                                <h2 class="section-title">কিভাবে ইমপ্লয়েস  ডেজিগন্যাশন  কনফিগার করবেন</h2>
-                                <div id="step1"  class="section-block">
-                                   
-                                    <p>প্রথমে ইমপ্লোই ডেজিগন্যাশন নামক মডিউল ক্লিক  করলে অনেক গুলা মডিউল আসবে | </p>
-
-
-                                     <img  src="assets/images/employee_designation_list.png" style="    width: 795px;">
-                                        <p> 
-                                        তার পর মডিউল থেকে ইমপ্লয়ী ডেজিগনেশন নামক অপশনটিতে ক্লিক করতে হবে|ক্লিক করলে পূর্বে যোগ হওয়া তথ্য সহ ১টা টেবিল দেখতে পাবো  
-                                        </p>
-                                        
-                                        <img  src="assets/images/employee_designation_report.png" style="    width: 795px;">
-                                       
-                                         <p>
-                                         তার পরে    ইমপ্লোই ডেজিগন্যাশন  টেবিল বাম দিকে  অ্যাড ইমপ্লোই ডেজিগন্যাশন নামক একটি বাটন আসবে ,ঐবাটনে ক্লিক করতে হবে
-                                        </p>
-                                          <img  src="assets/images/employee_designation_add_btn.png" style="    width: 795px;">
-                                          <p>
-                                        ডেজীগ্ন্যাশন  ফরম পুরন করান নিয়মাবলিঃফরম এর ভিতরে প্রথম যে ফিল্ড টি থাকবে তা হচ্ছে ডেজীগন্যাশন ডেজিগন্যাশন এর মধ্যে  ইমপ্লোই তার পদবি লিখবে তার পরের ফিল্ড হচ্ছে শট নেইম  ঐ ফিল্ড এর  মধ্যে ইমপ্লোই তার শট নামটি লিখবে। তার পরে আসবে কোড , কোড এর মধ্যে  ইমপ্লোই তার কোড লিখবে তার পরে আসবে ডিপাট্মেণ্ট , ডীপাট্মেণ্ট এর মধ্যে ই্মপ্লোই তার ডিপামেণ্ট এর নাম লিখবে তাএ পরে হচ্ছে  সেলারি , সেলারি ফিল্ড এর মধ্যে ইমপ্লোই তার সেলারি কত তা লিখবে  তার পরে রিপোট  সর্টিং অডার এই ভাবে সব গুলা ফিল্ড পুরন করার পরে সেইভ বাটনে ক্লিক করতে হবে |যদি কোণ ফিল্ড খালি থাকে তাহলে ইরোর দেখবে আর যদি খালি না থাকে তা হলে সাকসেস দেখাবে এবং তথ্য সংরক্ষণ হবে|এখন তথ্য গুলো ডাটা টেবিলে দেখা যাবে।
-
-                                        </p>
-                                          <img  src="assets/images/employee_designation_add_from.png" style="    width: 795px;">
-                                          <p>
-                                         
-                                          যদি কোণ তথ্য পরিবর্তন করতে হয় তা হলে ইডিট বাটনে ক্লিক করলে আগের  মত একটি ফরম এ ডাটা গুলো দেখা যাবে . ঐ খানে খানে কোণ কিছু পরিবর্তন করতে হলে তা পরিবর্তন করে আবার সেইভ দিতে হবে.
-                                        </p>
-                                          <img  src="assets/images/employee_designation_edit.png" style="    width: 795px;">
-
-                                         <p>
-                                         
-                                         টেবিল থেকে কোণ ডাটা বাদ দিতে হলে  তাহলে ডিলিট  বাটনে ক্লিক করলে তা ডিলিট হবে 
-                                        </p>
-                                          <img  src="assets/images/employee_designation_delete.png" style="    width: 795px;">
-                                         
-                                      <p>
-                                         
-                                        উক্ত টেবিলের মধ্যে যদি কোন ডাটা খুজে বের করতে হয় তাহলে নিচের চিত্র লক্ষ করুন
-                                        </p>
-                                          <img  src="assets/images/employee_designation_search.png" style="    width: 795px;">
-                                    
-                                 
-                                </div>
-                               
-                                   
-                               </div> 
-                              
-                            </section> 
-                               <section id="employees_reponsibility-section" class="doc-section">
-                                <div id="printinstallation"> 
-                                <h2 class="section-title">কিভাবে এমপ্লয়ী রিজাইন/টারমিনেশন কনফিগার করবেন</h2>
-                                <div id="step1"  class="section-block">
-                                   
-                                    <p>প্রথমে এমপ্লয়ী নামক মডিউলে ক্লিক করলে নিচের মতো অনেক গুলো অপশন থেকে এমপ্লয়ী রেসপনসিবিলিটি হিসটরি নামক অপশনে ক্লিক করতে হবে। </p>
-
-
-                                     <img  src="assets/images/employee_responsibility_history_list.jpg" style="    width: 795px;">  
-                                       
-                                     <p>
-                                      এরপর এমপ্লয়ী রেসপনসিবিলিটি হিসটরি নামক নিচের মতো একটি পেইজ  আসবে।
-                                     </p>
-                                            
-                                      <img  src="assets/images/employee_responsibility_history_report.jpg" style="    width: 795px;">
-                                        
-                                         
-
-                                        <p>
-                                          এখানে এমপ্লয়ী বা চাকুরিজিবীদের রেসপনসিবিলিটি হিসটরি গুলো তালিকা আকারে দেখা যাবে।  এরপর নিচের ছবির মতো উপরের ডান পাশে এড এমপ্লয়ী রেসপনসিবিলিটি হিসটরি নামক বাটনে ক্লিক করতে হবে। 
-                                        </p>
-                                         <img  src="assets/images/employee_responsibility_history_add_btn.jpg" style="    width: 795px;">
-                                         
-                                       তারপর নিচের মতো একটি এড ফরম আসবে।
-                                        </p>
-                                         <img  src="assets/images/employee_responsibility_history_form.jpg" style="    width: 795px;">
-                                            <p>
-                                        এখানে প্রথম ফিল্ড হচ্ছে ব্রান্স বা শাখা।  এখানে প্রথমে যে এমপ্লয়ীর দায়িত্ব তথা রেসপনসিবিলিটি থাকবে তার ব্রান্স বা শাখার নাম দিতে হবে। তারপরের ফিল্ড হচ্ছে এমপ্লয়ীর নাম। এখানে এমপ্লয়ীর নাম দিতে হবে। তারপরের ফিল্ড হচ্ছে কোন তারিখ হতে তার রেসপনসিবিলিটি বা দায়িত্ব শুরু হবে তার তারিখ উল্লেখ বা এন্ট্রি করে দিতে হবে। তার পরের ফিল্ড হচ্ছে কোন তারিখে তার (এমপ্লয়ীর) দায়িত্ব বা রেসপনসিবিলিটি শেষ হবে তার তারিখ এড বা লিখে দিতে হবে।
-                                        </p>
-                                        <p>
-                                         এভাবে সবগুলো ফিল্ড পূরন করা হয়ে গেলে সেইভ নামক বাটনে ক্লিক করতে হবে। যদি সব তথ্য ঠিক ঠিক ভাবে পূরন করা হয় তাহলে সাকসেসফুল নটিফিকেশন দেখাবে। নাহলে ফেইলড নামক নটিফিকেশন দেখাবে। তাহলেই ঐ এমপ্লয়ী বা চাকুরিজিবীর রেসপনসিবিলিটি হিসটরি এড হয়ে যাবে।রপরে সেইভ করা তথ্য গুলো এমপ্লয়ী রেসপনসিবিলিটি হিসটরি নামক টেবিলে দেখাবে। যদি ইনফরমেশন বা তথ্যে কোন ভুল থাকে তাহলে  নিচের মতো এডিট বাটনে ক্লিক করে আবার আগের মতো ফরমে তথ্য ঠিক করে সেইভ করা যাবে।
-                                        </p>
-                                         <img  src="assets/images/employee_responsibility_history_report_edit.jpg" style="    width: 795px;">
-                                           <p>
-                                         আবার কোন এমপ্লয়ীর তথ্য বাদ দিতে হলে নিচের ছবির মতো  ডিলিট নামক বাটনে ক্লিক করলে তথ্য কি সত্যি ডিলিট করতে চাই কিনা? এই রকম একটা নটিফিকেশন আসবে ঐখানে হ্যা নামক বাটনে ক্লিক করলে তথ্য ডিলিটি হয়ে যাবে। 
-                                        </p>
-                                         <img  src="assets/images/employee_responsibility_history_report_delete.jpg" style="    width: 795px;">
-                                          <p>
-                                        এই ডাটা টেবিল থেকে নিচের মতো ক্যাটাগরি অনুযায়ী তথ্য অনুসন্ধান করা যাবে।
-                                        </p>
-                                         <img  src="assets/images/employee_responsibility_history_report_search.jpg" style="    width: 795px;">
-                                        
-                                    
-                                 
-                                </div><!--//section-block-->
-                               
-                                    <!-- <h1>Print me</h1>  -->
-                                </div> 
-                               
-                            </section><!--//doc-section-->
-
-                             <section id="employees_promotion-section" class="doc-section">
-                                <div id="printinstallation"> 
-                                <h2 class="section-title">কিভাবে ইমপ্লোই প্রমোশান কনফিগার করবেন</h2>
-                                <div id="step1"  class="section-block">
-                                   
-                                    <p>প্রথমে এমপ্লয়ী নামক মডিউলে ক্লিক করলে  নিচের মতো অনেক গুলো অপশন থেকে এমপ্লয়ী প্রমোশান নামক অপশনে ক্লিক করতে হবে। </p>
-
-
-                                     <img  src="assets/images/employee_promotion_list.jpg" style="    width: 795px;">
-                                       
-                                       
-                                       
-                                         <p>
-                                         এরপর নিচের মতো  এমপ্লয়ী প্রমোশান নামক পেইজটি আসবে।
-                                          </p>
-                                            
-                                               <img  src="assets/images/employee_promtion_report.jpg" style="    width: 795px;">
-                                        
-                                         
-
-                                        <p>
-                                            এখানে যেসব এমপ্লয়ীদের প্রমোশান দেওয়া হয়েছে তার তালিকা দেখা যাবে। এরপর উপরের ডান পাশে এড নিউ এমপ্লয়ী প্রমোশান নামক বাটনে নিচের মতো  ক্লিক করতে হবে। 
-                                        </p>
-                                           <img  src="assets/images/employee_promotion_add.jpg" style="    width: 795px;">
-                                        <p>
-                                           তারপর এড এমপ্লয়ী প্রমোশান নামক  নিচের মতো একটি ফরম আসবে। 
-                                        </p>
-                                           <img  src="assets/images/employee_promotion_add_from.jpg" style="    width: 795px;">
-                                        <p>
-                                           এখানে প্রথম ফিল্ড হচ্ছে ব্রান্স বা শাখা। এখানে প্রথমে যে এমপ্লয়ী বা চাকুরিজিবী যে ব্রান্স বা শাখায় আছে তার তথ্য লিখতে বা এন্ট্রি দিতে হবে । তারপর যে ফিল্ড আছে তাতে যে এমপ্লয়ীকে প্রমোশান দেওয়া হবে তার নাম লিখতে হবে। তারপরের ফিল্ড হচ্ছে পূরানা পদবী বা ওল্ড ডেজিগনেশান। এই ফিল্ডে এমপ্লয়ীর পূরান বা যে পদবী থেকে প্রমোশান পাবে তা লিখতে হবে। তারপরের ফিল্ডে নতুন যে পদবীতে প্রমোশান দেওয়া হবে তা লিখতে হবে। এরপর সব তথ্য সঠিক ভাবে লিখা বা এন্ট্রি করা হলে সেইভ নামক বাটনে কিøক করতে হবে। তাহলে তথ্য সেইভ বা সংরক্ষিত হবে। যদি ফরমের তথ্য লিখার পর সেইভ করার প্রয়োজন না হলে কেনসেল নামক বাটনে ক্লিক কওে ফরম টির তথ্য বাদ দেওয়া যাবে। যদি ফরমের সকল ফিল্ড সঠিক ভাবে পূরন করা না হয় তাহলে সেইভ বাটনে ক্লিক করলে এরর বা ফেইল্ড নটিফিকেশান দেখাবে এবং তথ্য সেইভ হবে না। আর যদি সকল ফিল্ড সঠিক ভাবে পূরন কওে সেইভ করা হয় তাহলে সাকসেসফুল নামক নটিফিকেশান দেখাবে এবং তথ্য সেইভ বা সংরক্ষিত হবে। 
-                                        </p>
-                                        <p>
-                                          সংরক্ষিত তথ্য সমূহ ডাটা টেবিলের মধ্যে দেখা যাবে। যদি কোন তথ্য পরিবর্তন করার প্রয়োজন হয় তাহলে  নিচের মতো এডিট নামক বাটনে ক্লিক করে আবার আগের ফরমের মতো ফরমে গিয়ে তথ্য পরিবর্তন করে সেইভ করা যায়। 
-                                        </p>
-                                           <img  src="assets/images/employee_promotion_edit.jpg" style="    width: 795px;">
-                                        <p>
-                                         আবার কোন এমপ্লয়ীর তথ্য বাদ দিতে হলে ডিলিট নামক নিচের মতো বাটনে ক্লিক করলে তথ্য কি সত্যি ডিলিট করতে চাই কিনা? এই রকম একটা নটিফিকেশন আসবে ঐখানে হ্যা নামক বাটনে ক্লিক করলে তথ্য ডিলিটি হয়ে যাবে। 
-                                        </p>
-                                           <img  src="assets/images/employee_promotion_delete.jpg" style="    width: 795px;">
-                                         <p>
-                                       এই ডাটা টেবিল থেকে নিচের মতো ক্যাটাগরি অনুযায়ী তথ্য অনুসন্ধান করা যাবে। 
-                                        </p>
-                                           <img  src="assets/images/employee_promotion_search.jpg" style="    width: 795px;">
-                                        
-                                    
-                                 
-                                </div><!--//section-block-->
-                               
-                                    <!-- <h1>Print me</h1>  -->
-                                </div> 
-                               
-                            </section><!--//doc-section-->
-                             <section id="employees_regign-section" class="doc-section">
-                                <div id="printinstallation"> 
-                                <h2 class="section-title">কিভাবে এমপ্লয়ী রিজাইন/টারমিনেশন কনফিগার করবেন</h2>
-                                <div id="step1"  class="section-block">
-                                   
-                                    <p>এমপ্লয়ী মডিউলে  মাউস পয়েন্টার  রাখলে এমপ্লয়ী রিজাইন/টারমিনেশন লেখাটি দেখতে পাবো।</p>
-
-
-                                     <img  src="assets/images/employee_resign_list.png" style="    width: 795px;">
-                                        <p> 
-                                            ক্লিক ক্লিক করার সাথে সাথে যে সব এমপ্লয়ীরা চাকরীচূত হয়েছে তাদের ১টা তালিকা দেখতে পাবো । 
-                                        </p>
-                                        <img  src="assets/images/emloyee_resign_report.png" style="    width: 795px;">
-                                        <p>
-                                            যদি কোনো নির্দিষ্ট এমপ্লয়ীর তথ্য জানতে চাই তাহলে ওই এমপ্লয়ীর কোড এবং ব্রাঞ্চ নাম দিয়ে সার্চ করতে হবে ।
-                                        </p>
-                                        <img  src="assets/images/employee_regign_search.png" style="    width: 795px;">
-                                       
-                                         <p>
-                                          তথ্য অ্যাড করার সময় যদি কোনো ভুল হয়ে থাকে তাহলে তা ডিলিট করে পুনরায় অ্যাড করবো অথবা এডিট করে দিবো । টেবিল এর ডান সাইডে অ্যাকশন লেখার নিচে যে লাল বাটন বা ডিলিট এর আইকন আছে ওই বাটন এ ক্লিক করলে ডিলিট অপারেশন কমপ্লিট হবে । 
-                                          </p>
-                                            <img  src="assets/images/employee_regin_delete.png" style="    width: 795px;">
-                                          <p>
-                                          <p>
-                                            ডিলিট বাটন এর পাশেই এডিট বাটন ওই বাটন এ ক্লিক করলে ১টা ফর্ম আসবে এরপর সঠিক তথ্য দিয়ে ফর্ম পূরণ করে সেভ করতে হবে ।
-                                        </p>
-                                        <img  src="assets/images/employee_regign_edit.png" style="    width: 795px;">
-
-                                        <p>
-                                        <p>
-                                         এরপর আসি যদি কোনো এমপ্লয়ী রেজাইন নে তাকে অ্যাড দিতে হবে অ্যাড নিউ বাটন করুন |
-                                        </p>
-                                         <img  src="assets/images/employee_resign_add_btn.png" style="    width: 795px;">
-                                         <p>
-                                            ক্লিক করলে ১টা ফর্ম দেখতে পাবো এরপর ব্রাঞ্চ নাম এবং এমপ্লয়ী সিলেক্ট  করলে ১টা টেবিল জেনারেট হবে টেবিল থেকে তথ্য গুলো সঠিক আছে কিনা তা চেক করে সেভ বাটন এ ক্লিক করবো । এভাবে এমপ্লয়ী রেজাইন/টারমিনেশন এর কাজ শেষ ।
-                                         </p>
-                                           <img  src="assets/images/employee_resign_add.png" style="    width: 795px;">
-                                    
-                                 
-                                </div><!--//section-block-->
-                               
-                                    <!-- <h1>Print me</h1>  -->
-                                </div> 
-                              
-                            </section><!--//doc-section-->
-                      
-                            
-                                 <section id="samity_section" class="doc-section">
-                                <div id="printinstallation"> 
-                                <h2 class="section-title">কিভাবে সমিতি কনফিগার করবেন? </h2>
-                                <div id="step1"  class="section-block">
-                                   
-                                    <p> এই মেনু থেকে সাধারণত সমিতি তথ্য জমা রাখা হয়  এবং প্রয়োজন অনুসারে একটা সমিতির সব তথ্য পরিবর্তন ও মুছে দেওয়া যায় নীচের ছবিটাতে কিভাবে সমিতি টেবিলে এ যেতে হয় তা দেওয়া হল |</p>
-
-
-                                     <img  src="assets/images/samity_list.png" style="    width: 795px;">
-                                        <p> 
-                                      তারপর আমরা  সমিতি টেবিলের সব তথ্য দেখতে পাবো যা নিছের ছবিতে আছে
-                                        </p>
-                                        <img  src="assets/images/samity_report.png" style="    width: 795px;">
-                                        <p>
-                                           সমিতি টেবিলের ডান পাশে অ্যাড নিউ সমিতি একটা বাটন আছে । উক্ত বাটনে ক্লিক করে আমরা নতুন সমিতি এর তথ্য জমা করতে পারি। অ্যাড সমিতি বাটনে ক্লিক করলে একটি ফরম দেখতে পাবো পূরণের মাধ্যমে নতুন সমিতির তথ্য ও সমিতি যোগ করা হয়।
-                                        </p>
-                                        <img  src="assets/images/samity_add_btn.png" style="    width: 795px;">
-                                       
-                                         <p>
-                                         এডিট বাটনে ক্লিক করার পর একটি ফর্ম আসবে, সেখান থেকে আমরা প্রয়োজনীয় তথ্য যুক্ত করে এডিট ফর্ম এর নিচে আপডেট নামে একটি বাটন আছে ওই বাটনে ক্লিক করলে পরিবর্তিত সেভ হবে। 
-                                          </p>
-
-                                         
-                                            <img  src="assets/images/samity_add_from.png" style="    width: 795px;">
-                                         <p>
-                                              আমরা যদি কোন সমিতির তথ্য মুছে ফেলতে চাই তাহলে টেবিলে একশন নামে একটি কলাম আছে, সমিতি টেবিল থেকে ডিলিট বাটন টি ক্লিক করতে হবে।
-
-                                         </p>
-                                         <p>
-                                         সমিতি টেবিল থেকে যদি কোন সমিতির তথ্য খুঁজে বের করতে হয় তাহলে টেবিল এর সার্চ বক্সে সমিতির নাম এবং কোন ব্রাঞ্চ সেটা সিলেক্ট করে সার্চ বাটনে ক্লিক করি
-                                        </p>
-                                    
-                                 
-                                </div><!--//section-block-->
-                               
-                                    <!-- <h1>Print me</h1>  -->
-                                </div> 
-                              
-                            </section><!--//doc-section-->
-                           
-
-                               <section id="samity_transfer_section" class="doc-section">
-                                <div id="printinstallation"> 
-                                <h2 class="section-title">কিভাবে সমিতি ট্রান্সফার করবেন? </h2>
-                                <div id="step1"  class="section-block">
-                                   
-                                    <p> মেম্বার সমিতি ট্রান্সফার হচ্ছে কোন সমিতির মেম্বারকে অন্য কোন নতুন বা পুরাতন কোন সমিতিতে ট্রান্সফার করা। তবে কোন মেম্বারকে অন্য সমিতিতে ট্রান্সফার করতে হলে অবশ্যই তার লোন বা ঋন এর টাকা সম্পূর্ন পরিশোধ করতে হবে। এবং ট্রান্সফার এর সময় তার ডিপোজিট থাকলে তা উঠাতে হবে অর্থাৎ  উইথড্র করতে হবে , এবং ডিপোজিট একাউন্ট বন্ধ করা হবে।</p>
-                                    <p>
-                                      মেম্বার সমিতি ট্রান্সফার করতে হলে প্রথমে মেম্বার নামক মডিউলে ক্লিক করলে নিচের মতো কতগুলো সাব-মডিউল থেকে মেম্বার সমিতি ট্রান্সফার নামক অপশানে ডাবল ক্লিক করতে হবে।
-                                    </p>
-
-                                     <img  src="assets/images/samity_transfer_list.jpg" style="    width: 795px;">
-                                      <p> 
-                                       তাহলে নিচের মতো একটা পেজ আসবে।
-                                      </p>
-                                      <img  src="assets/images/samity_transfer_report.jpg" style="    width: 795px;">
-                                      <p>
-                                       এখানে যেসব মেম্বারকে এক সমিতি থেকে অন্য সমিতিতে ট্রান্সফার করা হয়েছে তার তালিকা দেখা যাবে।এখন কোন মেম্বারকে অন্য সমিতিতে ট্রান্সফার করতে হলে এই পেজের উপরের ডান পাশে নিচের মতো  এড নামক বাটনে ক্লিক করতে হবে।
-                                      </p>
-                                       <img  src="assets/images/samity_transfer_add_btn.jpg" style="    width: 795px;">
-                                       <p>
-                                         তাহলে নিচের মতো একটা ফরম আসবে। 
-                                        </p>
-
-                                         
-                                            <img  src="assets/images/samity_transfer_add_from.jpg" style="    width: 795px;">
-                                         <p>
-                                            এখানে ফরমের মধ্যে প্রথম ফিল্ড হচ্ছে ব্রান্স নেম যা ডিফল্ট ঠিক করা বা লেখা থাকবে। এর পরের ফিল্ড হচ্ছে মেম্বার নেম এখানে যে মেম্বারকে ট্রান্সফার করা হবে তার নাম উল্লেখ করতে হবে। তাহলে এর পরের ফিল্ড অটো বা নিজে নিজে পূরন হয়ে যাবে। এবং তার পরের ফিল্ড ও পূরন হয়ে যাবে। যেখানে মেম্বারের সমিতি দেখা যাবে। এর পরের ফিল্ড হচ্ছে নিউ প্রাইমারি প্রোাডাক্ট কোড যাতে মেম্বার যে নতুন সমিতিতে ট্রান্সফার হবে ঐ সমিতিতে তার প্রোডাক্ট কোড বা টাইপ লেখে দিতে হবে। এর পরের ফিল্ড হচ্ছে কোন সমিতিতে ট্রান্সফার করা হবে তার নাম লিখতে হবে। যার ফলে পরের ফিল্ডে নিজে নিজে নতুন মেম্বার আইডি সেট হয়ে যাবে।
-
-                                         </p>
-                                         <p>
-                                           সব কিছু সঠিক ভাবে পূরন করা হলে এইবার সেইভ নামক বাটনে ক্লিক করতে হবে। তাহলে তথ্য সমূহ সংরক্ষিত হবে। যদি কোন ফিল্ড খালি থাকে অথবা সঠিক ভাবে পূরন করা না হয় তাহলে এরর বা ফেইল্ড নটিফিকেশান দেখাবে।
-                                        </p>
-                                        <p>
-                                          এখন সংরক্ষিত তথ্য সমূহ ডাটা টেবিলে দেখাবে। এখন কোন তথ্য পরিবর্তন করার প্রয়োজন হলে নিচের মতো এডিট বাটনে ক্লিক করতে হবে।
-                                        </p>
-                                          <img  src="assets/images/samity_transfer_edit.jpg" style="    width: 795px;">
-                                        <p>
-                                        হবে। তাহলে আগের মতো ফরমটি আসবে। ঐখানে প্রয়োজনীয় তথ্য পরিবর্তন করে সেইভ বাটনে ক্লিক করলে পরিবর্তন হয়ে যাবে।আবার কোন তথ্য ডিলিট বা বাদ দিতে নিচের মতো ডিলিট নামক বাটনে ক্লিক করলে অনুমতি চেয়ে নটিফিকেশান আসবে ঐখানে হ্যা দিলে ডাটা ডিলিট হয়ে যাবে।
-                                        </p>
-                                         <img  src="assets/images/samity_transfer_delete.jpg" style="    width: 795px;">
-                                         <p>
-                                           আবার ডাটা টেবিলের অনেক বেশি তথ্য হতে কোন তথ্য খুজে বের করতে হলে নিচের মতো করে প্রয়োজনীয় তথ্য দিয়ে চার্চ বাটনে ক্লিক করলে ঐ তথ্য সমূহ যদি থাকে তাহলে চলে আসবে।
-                                         </p>
-                                         <img  src="assets/images/samity_transfer_search.jpg" style="    width: 795px;">
-                                         <p>এভাবেই কোন মেম্বারকে অন্য সমিতিতে ট্রান্সফার করতে হলে উপরের উল্লেখিত প্রসেস বা ধাপ সমূহ অনুসরন করতে হবে।</p>
-
-                                     
-                                 
-                                </div><!--//section-block-->
-                               
-                                    <!-- <h1>Print me</h1>  -->
-                                </div> 
-                              
-                             </section> 
-                             <section id="samity_field_officer_section" class="doc-section">
-                                <div id="printinstallation"> 
-                                <h2 class="section-title">কিভাবে সমিতি ফিল্ড অফিসার কনফিগার করতে হবে</h2>
-                                <div id="step1"  class="section-block">
-                                   
-                                    <p>Samity মডিউলের ভিতরে Samity Filed Officers Change নামে একটি সাব মডিউল আছে। Samity Filed Officers Change সাব মডিউল হচ্ছে কোন সমিতির ফিল্ড পর্যায়ের কর্মীকে পরিবর্তন করা বা কর্মি যদি নিজ থেকে পদ ত্যাগ করে তবে তার শূন্য স্থান পূরন করার জন্য নতুন কর্মী নিয়োগ করার কাজ এই মডিউলে  করা হয়।</p>
-
-
-                                     <img  src="assets/images/samity_field_officer_list.png" style="    width: 795px;">
-                                        <p> 
-                                           Samity Filed Officers Change এ ক্লিক করার পর একটি টেবিল প্রদর্শিত হয় ,উক্ত টেবিলে পরিবর্তিত  অফির্সাসদের যাবতীয় তথ্য সংরক্ষন করা হয়।টেবিলের ডান পাশে এবং নিচের অংশে একটি add বাটন আছে ।
-                                        </p>
-                                        <img  src="assets/images/samity_field_officer_report.png" style="    width: 795px;">
-                                       
-                                       
-                                         <p>
-                                         add বাটনে ক্লিক করার পর একটি ফর্ম আসবে ।ফর্মে আগে  ব্রাঞ্জ  সিলেক্ট করতে  হবে অর্থাৎ অফিসার্স কোন ব্রাঞ্জের অধিনে পরিবর্তন করতে হবে তা ঠিক করতে হবে। তারপর কোন সমিতির অধিনে অফির্সাস পরিবর্তন করতে হবে তা সিলেক্ট করতে হবে।সমিতি সিলেক্ট করে Old Oficers  ফিল্ডে আগের  অফিসার্সের নাম আসবে অর্থাৎ ওই সমিতির পূর্বের ফিল্ড অফিসার্স এর নাম আসবে।তারপর  new filed officers ফিল্ডে নতুন যে কর্মি নিয়োগ দিবে তা সিলেক্ট করতে হবে ।
-
-                                          </p>
-                                            <img  src="assets/images/samity_field_officer_add_from.png" style="    width: 795px;">
-                                          <p>
-                                          <p>
-                                          এরপর Save বাটনে ক্লিকরে ফর্মটির তথ্য ডাটাবেস টেবিলে সংরক্ষিত হবে, এবং ডাটা টেবিলে প্রদর্শিত হবে।টেবিলের উপরে বাম পাশে একটি সার্চ  বক্স আছে যেখানে সমিতির নাম এবং ব্রাঞ্জ যুক্ত করে সার্চ বাটনে ক্লিক করে উক্ত সমিতির তথ্য খুজে বের করা যায়।
-                                        </p>
-                                        <img  src="assets/images/samity_field_officer_search.png" style="    width: 795px;">
-
-                                        <p>
-                                        <p>
-                                          টেবিলের Action নামে একটি কলাম আছে যেখানে Edit & Delete নামে দুইটি বাটনে আছে ।
-                                        </p>
-                                         <img  src="assets/images/samity_field_officer_edit_delete.png" style="    width: 795px;">
-                                         <p>
-                                          Edit বটনে ক্লিক করার পর একটি ফর্ম আসবে ,ফর্মে কর্মকর্তা/কর্মচারীর আগের তথ্য আসবে এবং সেখান থেকে  কর্মকর্তা/কর্মচারীর তথ্য প্রোয়জন অনুযায়ী পরিবর্তন করে Update বাটনে ক্লিক করে পরিবর্তিত তথ্য টেবেলি যুক্ত করা  হয়। 
-                                         </p>
-                                          <img  src="assets/images/samity_field_officer_update.png" style="    width: 795px;">
-                                         
-                                    
-                                 
-                                </div> <!--//section-block-->
-                               
-                                    <!-- <h1>Print me</h1>  -->
-                                </div> 
-                              
-                             </section><!--//doc-section-->
-
-                             <section id="samity_day_change_section" class="doc-section">
-                                <div id="printinstallation"> 
-                                <h2 class="section-title">কিভাবে সমিতি ডে চেইন্জ কনফিগার করতে হবে</h2>
-                                <div id="step1"  class="section-block">
-                                   
-                                    <p> সমিতি ডে চেইন্জ হচ্ছে, যে দিন সমিতির কিস্তি বা ইন্সটলমেন্ট দেওয়া হবে তার সময় বা বার। অর্থাৎ এই বার পরিবর্তন করার জন্যই এটি ব্যাবহার করা হয়।প্রথমে সমিতি নামক মডিউল এ ক্লিক করলে কতগুলো সাব-মডিউল বা অপশান আসে নিচের মতো ।</p>
-
-
-                                     <img  src="assets/images/samity_day_change_list.jpg" style="    width: 795px;">
-                                        <p> 
-                                           এখান থেকে সমিতি ডে চেইন্জ নামক মডিউলে ক্লিক করলে নিচের মতো একটা ডাটা টেবিল খুলবে বা আসবে।
-                                        </p>
-                                        <img  src="assets/images/samity_day_change_report.jpg" style="    width: 795px;">
-                                        <p>
-                                           এখানে যে যে সমিতির ডে গুলো পরিবর্তন করা হয়েছে তার তালিকা দেখা যাবে।এখন কোন সমিতির ডে বা কিস্তির দিন পরিবর্তন করতে হলে এ পেইজের উপরের ডান পাশেরে এড নামক বাটনে ক্লিক করতে হবে। যা নিচে দেখানো হলো।
-                                        </p>
-                                        <img  src="assets/images/samity_day_change_add_btn.jpg" style="    width: 795px;">
-                                       
-                                         <p>
-                                         তাহলে নিচের মতো একটি ফরম আসবে।
-
-                                          </p>
-                                            <img  src="assets/images/samity_day_change_add_from.jpg" style="    width: 795px;">
-                                          <p>
-                                          <p>
-                                          এখানে প্রথম ফিল্ড হচ্ছে  ব্রান্স নেইম অর্থাৎ যে ব্রান্সের সমিতির বার পরিবর্তন করা হবে তার নাম লিখতে হবে। এরপরের ফিল্ড হচ্ছে সমিতির নাম, এখানে যে সমিতির বার পরিবর্তন করা হবে তার নাম লিখতে হবে। তার পরের ফিল্ড হচ্ছে সমিতির বর্তমান যে বার আছে তা দেখা যাবে, এটি পরিবর্তন করা যাবে না। এরপরের ফিল্ডে নতুন যে বার বা দিন ঠিক করতে চাই তা লিখতে হবে। এভাবে সব কিছু সঠিক ভাবে পরিবর্তন করা হয়ে গেলে নিচের মতো করে সেইভ বাটনে ক্লিক করলে তথ্য গুলো সংরক্ষিত হবে। যদি ফিল্ড গুলো সঠিক ভাবে পূরন করা না হয় তাহলে এরর বা ফেইল্ড নটিফিকেশান দেখাবে।এখন সংরক্ষিত তথ্যটি আগের মতো ডাটা টেবিলে দেখাবে।যদি কোন তথ্য পরিবর্তন করার প্রয়োজন হয় তাহলে নিচের মতো করে এডিট বাটনে ক্লিক করলে আবার আগের ফরমে তথ্য সহ চলে আসবে ।
-                                        </p>
-                                        <img  src="assets/images/samity_day_change_edit.jpg" style="    width: 795px;">
-
-                                        <p>
-                                        <p>
-                                          এখানে পরিবর্তন করে আবার সেইভ করতে হবে।আবার কোন তথ্য যদি বাদ দিতে হয় তাহলে নিচের মতো ডিলিট বাটনে ক্লিক করতে হবে। তাহলে ডাটা ডিলিট হয়ে যাবে।
-                                        </p>
-                                         <img  src="assets/images/samity_day_change_delete.jpg" style="    width: 795px;">
-                                         <p>
-                                          এভাবেই সমিতি ডে চেইন্জ এ তথ্য এড, এডিট এবং ডিলিট করা হয়।
-                                         </p>
-                                         
-                                    
-                                 
-                                </div><!--//section-block-->
-                               
-                                    <!-- <h1>Print me</h1>  -->
-                                </div> 
-                              
-                            </section><!--//doc-section-->
-
-
-                             <section id="samity_closing-section" class="doc-section">
-                                <div id="printinstallation"> 
-                                <h2 class="section-title">কিভাবে সমিতি ক্লোজিং কনফিগার করতে হবে</h2>
-                                <div id="step1"  class="section-block">
-                                   
-                                    <p>সমিতি মডিউলে মাউস পয়েন্টার রাখলে একেবারে শেষে সমিতি ক্লোজিং দেখতে পাবো।</p>
-
-
-                                     <img  src="assets/images/samity_closing_list.png" style="    width: 795px;">
-                                        <p> 
-                                           সমিতি ক্লোজিং এ ক্লিক করার সাথে সাথে সমিতি ক্লোজিং এর পূর্ববর্তী ইতিহাস দেখতে পাবো । অর্থাৎ, পূর্বে যে সব সমিতি গুলো ক্লোজিং হয়েছে। 
-                                        </p>
-                                        <img  src="assets/images/samity_closing_report.png" style="    width: 795px;">
-                                        <p>
-                                            কোনো নির্দিষ্ট তথ্য জানার জন্য সমিতি নাম অথবা  সমিতি কোড এবং তারিখ   দিয়ে সার্চ করলে কাঙ্খিত তথ্য দেখতে পাবো। 
-                                        </p>
-                                        <img  src="assets/images/samity_closing_search.png" style="    width: 795px;">
-                                       
-                                         <p>
-                                         টেবিল থেকে কোনো তথ্য ভুল হলে তা ডিলিট করা  বা এডিট করা যাবে কি ভাবে করতে হবে  তা অ্যাড করার পর বলছি। সমিতি টেবিলের ঠিক ডান পাশেই অ্যাড বাটন।
-
-                                          </p>
-                                            <img  src="assets/images/samity_closing_add_btn.png" style="    width: 795px;">
-                                          <p>
-                                          <p>
-                                           অ্যাড বাটন এ ক্লিক করলে ১টা ফর্ম দেখতে পাবো ফর্মে সঠিক তথ্য দিয়ে সেভ বাটন এ ক্লিক করবো।  
-                                        </p>
-                                        <img  src="assets/images/samity_closing_add_from.png" style="    width: 795px;">
-
-                                        <p>
-                                        <p>
-                                         সেভ হয়ে তা সরাসরি সমিতি ক্লোজিং টেবিল এ চলে যাবে। টেবিল থেকে চেক করে নিব অ্যাড হওয়া তথ্য সঠিক আছে কিনা । যদি তথ্য  ভুল হয়ে থাকে তাহলে ডিলিট করে পুনরায় অ্যাড করবো।
-                                        </p>
-                                         <img  src="assets/images/samity_closing_delete.png" style="    width: 795px;">
-                                         <p>
-                                          কারণ এডিট টেবিল থেকে তথ্য এডিট করা যাবে না শুধু ডিলেটেই করা যাবে।এভাবেই শেষ করতে হবে সমিতি ক্লোজিং এর কাজ
-                                         </p>
-                                         
-                                    
-                                 
-                                </div><!--//section-block-->
-                               
-                                    <!-- <h1>Print me</h1>  -->
-                                </div> 
-                              
-                            </section><!--//doc-section-->
-
-                            
-
-                           
-                                 <section id="member_info-section" class="doc-section">
-                                <div id="printinstallation"> 
-                                <h2 class="section-title">কিভাবে  মেম্বার ইনফরমেশন কনফিগার করতে হবে</h2>
-                                <div id="step1"  class="section-block">
-                                   
-                                    <p>মেম্বার অপসন এ মাউস পয়েন্টার রেখে মেম্বার ইনফরমেশন এ ক্লিক করলে  সকল মেম্বারের তথ্য পাওয়া যায়</p>
-
-
-                                     <img  src="assets/images/member_info_list.png" style="    width: 795px;">
-                                        <p> 
-                                           এবং ডান পাশের ভিউ বাটনে ক্লিক করে প্রয়োজনে পুরো তথ্য দেখা যায়।ডিলিট বাটনে ক্লিক করে অপ্রয়োজনীয় তথ্য ডিলিট করা যায়। ইডিট বাটনে ক্লিক করে ভুল তথ্য আপডেট বা সংশোধন করা যায়। নতুন কোনো মেম্বার অ্যাড করতে হলে অ্যাড নিউ মেম্বার বাটনে ক্লিক করতে হবে। 
-                                        </p>
-                                        <img  src="assets/images/member_info_report.png" style="    width: 795px;">
-                                       
-                                     ক্লিক করার পর একটি ফর্ম আসবে। সেখানে মেম্বারের সকল প্রয়োজনীয় তথ্য পূরণ করে সেভ বাটনে ক্লিক করলে নতুন মেম্বার অ্যাড হয়ে যাবে। 
-
-                                          </p>
-                                            <img  src="assets/images/member_info_add.png" style="    width: 795px;">
-                                          <p>
-                                          
-                                        
-                                         
-                                    
-                                 
-                                </div><!--//section-block-->
-                               
-                                    <!-- <h1>Print me</h1>  -->
-                                </div> 
-                              
-                            </section><!--//doc-section-->
-                              <section id="member_info_search" class="doc-section">
-                                <div id="printinstallation"> 
-                                <h2 class="section-title">কিভাবে মেম্বার ইনফরমেনশন বাই ন্যাশনাল আইডি দিয়ে সার্চ করতে হবে</h2>
-                                <div id="step1"  class="section-block">
-                                   
-                                    <p>
-                                        কোন সদস্য ভর্তি করার সময় যদি জাতীয় পরিচয়পত্র নম্বর বাধ্যতামূলক করা হয় তাহলে এই অপশন এর মাধ্যমে খুব সহজে জাতীয় পরিচয়পত্র নম্বর এর মাধ্যমে যে কোন সদস্য কে খুজে বের করা সম্ভব। এমনকি সদস্য যদি একই প্রতিষ্ঠান এর এক শাখা থেকে একবার লোন নেওয়ার পর যদি অন্য কোন শাখা থেকে আবার লোন গ্রহণ করার চেষ্টা করে। সেক্ষেত্রে জাতীয় পরিচয়পত্র নম্বর দেওয়ার সাথে সাথেই উক্ত মেম্বার এর সকল তথ্য সফটওয়্যারে প্রদর্শন করবে।
-                                    </p>
-
-
-                                     <img  src="assets/images/member_info_by_national.jpg" style="    width: 795px;">
-                                        <p> 
-                                         মেম্বারের জাতীয় পরিচয়পত্র নম্বর চিত্রের No.1 ইনপুট বক্সে বসিয়ে চিত্রের No.2 সার্চ বাটনে ক্লিক করলে  নিচের টেবিলে উক্ত মেম্বার এর সকল তথ্য প্রদর্শন হবে। 
-                                        </p>
-                                       <p>
-                                       উক্ত মেম্বার এর সকল তথ্য চিত্রের No.3 এডিট বাটনে ক্লিক করে হালনাগাদ করা হয় এবং উক্ত মেম্বার এর সকল তথ্য চিত্রের No.4 ডিলিট বাটনে ক্লিক করে মুছে ফেলা হয় 
-                                      </p>
-                                          
-                                        
-                                         
-                                    
-                                 
-                                </div><!--//section-block-->
-                               
-                                    <!-- <h1>Print me</h1>  -->
-                                </div> 
-                              
-                            </section><!--//doc-section-->
-                            
-                              <section id="member_samity_transfer_section" class="doc-section">
-                                <div id="printinstallation"> 
-                                <h2 class="section-title">কিভাবে মেম্বার সমিতি ট্রান্সফার কনফিগার করতে হবে </h2>
-                                <div id="step1"  class="section-block">
-                                   
-                                    <p>
-                                        কোন সদস্য ভর্তি করার সময় যদি জাতীয় পরিচয়পত্র নম্বর বাধ্যতামূলক করা হয় তাহলে এই অপশন এর মাধ্যমে খুব সহজে জাতীয় পরিচয়পত্র নম্বর এর মাধ্যমে যে কোন সদস্য কে খুজে বের করা সম্ভব। এমনকি সদস্য যদি একই প্রতিষ্ঠান এর এক শাখা থেকে একবার লোন নেওয়ার পর যদি অন্য কোন শাখা থেকে আবার লোন গ্রহণ করার চেষ্টা করে। সেক্ষেত্রে জাতীয় পরিচয়পত্র নম্বর দেওয়ার সাথে সাথেই উক্ত মেম্বার এর সকল তথ্য সফটওয়্যারে প্রদর্শন করবে।
-                                    </p>
-
-
-                                     <img  src="assets/images/member_info_by_national.jpg" style="    width: 795px;">
-                                        <p> 
-                                         মেম্বারের জাতীয় পরিচয়পত্র নম্বর চিত্রের No.1 ইনপুট বক্সে বসিয়ে চিত্রের No.2 সার্চ বাটনে ক্লিক করলে  নিচের টেবিলে উক্ত মেম্বার এর সকল তথ্য প্রদর্শন হবে। 
-                                        </p>
-                                       <p>
-                                       উক্ত মেম্বার এর সকল তথ্য চিত্রের No.3 এডিট বাটনে ক্লিক করে হালনাগাদ করা হয় এবং উক্ত মেম্বার এর সকল তথ্য চিত্রের No.4 ডিলিট বাটনে ক্লিক করে মুছে ফেলা হয় 
-                                      </p>
-                                          
-                                        
-                                         
-                                    
-                                 
-                                </div><!--//section-block-->
-                               
-                                    <!-- <h1>Print me</h1>  -->
-                                </div> 
-                              
-                            </section><!--//doc-section-->
-                            
-
-                                   <section id="member_primary_product_transfer" class="doc-section">
-                                <div id="printinstallation"> 
-                                <h2 class="section-title">কিভাবে মেম্বার প্রাইমারি প্রোডাক্ট ট্রান্সফার করতে হবে </h2>
-                                <div id="step1"  class="section-block">
-                                   
-                                    <p>
-                                       Member Primary Product Transfer এ ক্লিক করলে মেম্বারের প্রাইমারি প্রোডাক্ট ট্রান্সফার এর একটি লিস্ট আসবে। সেখানে মেম্বারের প্রাইমারি প্রোডাক্ট ট্রান্সফারের সকল তথ্য পাওয়া যাবে।  প্রয়োজনে তথ্য ফিল্টার বা সার্চ করা যাবে। ডিলিট বাটনে ক্লিক করে অপ্রয়োজনীয় ডাটা ডিলিট করা যাবে। এবং কোনো তথ্য সংশোধন করার প্রয়োজন হলে তা ইডিট বাটনে ক্লিক করে সংশোধন করা যাবে। 
-                                    </p>
-
-
-                                     <img  src="assets/images/product_transfer_list.png" style="    width: 795px;">
-                                        <p> 
-                                        নতুন কোনো প্রাইমারি প্রোডাক্ট ট্রান্সফার করতে হলে অ্যাড বাটনে ক্লিক করতে হবে। তারপর একটি ফর্ম আসবে। সেটি পরিপূর্ন ভাবে ফিলাপ করে সেভ বাটনে ক্লিক করলে মেম্বারের প্রাইমারি প্রোডাক্ট ট্রান্সফার হয়ে যাবে।  এবং তা লিস্ট এ অ্যাড হয়ে যাবে।  
-                                        </p>
-                                    
-                                      <img  src="assets/images/product_transfer_form.png" style="    width: 795px;">
-
-                                        
-                                         
-                                    
-                                 
-                                </div><!--//section-block-->
-                               
-                                    <!-- <h1>Print me</h1>  -->
-                                </div> 
-                              
-                            </section><!--//doc-section-->
-                            <section id="member_closing_section" class="doc-section">
-                                <div id="printinstallation"> 
-                                <h2 class="section-title">কিভাবে মেম্বার ক্লোজিং কনফিগার করতে হবে </h2>
-                                <div id="step1"  class="section-block">
-                                   
-                                    <p>
-                                        মেম্বার মডিউলে উপর মাউস পয়েন্টার রাখলে মেম্বার ক্লোজিং দেখতে পাবো ।
-
-                                    </p>
-
-
-                                     <img  src="assets/images/member_closing_list.png" style="    width: 795px;">
-                                    <p> 
-                                      মেম্বার ক্লোজিং এ ক্লিক করলে পূর্বে যোগ হওয়া তথ্য সহ ১টা টেবিল দেখতে পাবো ।
-                                    </p>
-                                    <img  src="assets/images/member_closing_report.png" style="    width: 795px;">
-                                       নির্দিষ্টতো কোনো তথ্য জানার জন্য টেবিলের ঠিক বাম পাশের উপরে ব্রাঞ্চ নাম,কত তারিখ থেকে কত তারিখ এর তথ্য দেখতে চান ওই তারিখ  অথবা মেম্বার কোড দিয়ে সার্চ করলে কাঙ্খিত তথ্য পাবো ।
-
-                                    </p>
-                                    <img  src="assets/images/member_closing_search.png" style="    width: 795px;">
-                                    <p>টেবিল থেকে চাইলে যে কোনো তথ্য ডিলিট বা এডিট ও করা যাবে ।</p>
-                                    <p>অ্যাড সম্পর্কে জেনে তারপর যে এডিট এবং ডিলিট কি ভাবে করতে হবে তা জানবো ।টেবিল  দান  পশে উপরে তাকালেই  অ্যাড  বাটন টি দেখতে পাবো ।</p>
-                                    <img  src="assets/images/member_closing_add_btn.png" style="    width: 795px;">
-                                    <p>
-                                      অ্যাড বাটন ক্লিক করলে ১টা ফর্ম দেখতে পাবো ।
-
-                                    </p>
-                                     <img  src="assets/images/member_closing_add_from.png" style="    width: 795px;">
-                                     <p>ফর্ম এ প্রয়োজনীয় তথ্য  দিয়ে  ফর্ম পূরণ করবো মেম্বার সিলেক্ট করার পর পরই  ফর্মের নিচে ১টা টেবিল জেনারেট হবে ।</p>
-                                      <img  src="assets/images/member_closing_view.png" style="    width: 795px;">
-                                      <p>
-                                      লোন যদি ক্লোজ হয় এবং সেভিংস এর টাকা যদি উইথড্র করা হয় তবেই মেম্বার ক্লোজিং করা সম্ভব । 
-
-                                      সব যদি ঠিক থাকে তাহলে সাবমিট বাটন এ ক্লিক করে মেম্বার ক্লোজিং এর কাজ শেষ করতে হবে ।
-                                      </p>
-
-                                          
-                                        
-                                         
-                                    
-                                 
-                                </div><!--//section-block-->
-                               
-                                    <!-- <h1>Print me</h1>  -->
-                                </div> 
-                              
-                            </section><!--//doc-section-->
-                             <section id="member_attendances_section" class="doc-section">
-                                <div id="printinstallation"> 
-                                <h2 class="section-title">কিভাবে মেম্বার অ্যাটেনডেন্স নিতে হবে </h2>
-                                <div id="step1"  class="section-block">
-                                   
-                                    <p>
-                                      মেম্বার অ্যাটেনডেন্স এর মাধ্যমে আমরা একটি সভায় কতজন মেম্বার উপস্থিত ও অনুপস্থিত তার হিসাব রাখতে পারি।কিভাবে মেম্বার অ্যাটেনডেন্স এ যাওয়া যায় তা ছবি সহ নিচে দেওয়া হল।
-                                    </p>
-                                  
-
-
-                                     <img  src="assets/images/atttendance_list.png" style="    width: 795px;">
-                                     <p> 
-                                      মেম্বার অ্যাটেনডেন্স এ ক্লিক করার পর আমাদেরকে এই ফর্মটা দেখাবে।
-                                     </p>
-                                        <img  src="assets/images/attendance_from.png" style="    width: 795px;">
-                                       <p>
-                                      অতঃপর আমাদেরকে অ্যাটেনডেন্স ফর্মটা পূরণ করে নিতে হবে । ফরমের মধ্যে ব্রাঞ্চ এর নাম অটো সিলেক্ট হবে তারপর সমিতি নাম এবং তারিখ সিলেক্ট করতে হবে ।
-                                      </p>
-                                       <img  src="assets/images/attendance_from_mark.png" style="    width: 795px;">
-                                        <p>
-                                      সব কিছু পূরণ হয়ে গেলে সমিতির মধ্যে মেম্বারদের নাম ও অ্যাটেনডেন্স অটো জেনারেট হয়ে পেজ দেখাবে যেখান থেকে আমরা ব্রাঞ্চ এর অধীনে একটা সমিতির সব মেম্বার এর উপস্থিত অটো দেওয়া থাকবে সেখান থেকে যারা অনুপস্থিত তাদের সিলেক্ট বক্স থেকে ক্লিক করে Absent নিতে হবে
-                                      </p>
-                                       <img  src="assets/images/attendance_set.png" style="    width: 795px;">
-                                       <p>
-                                       সিলেক্ট হয়ে গেলে উপরের সেভ বাটন এ ক্লিক করব
-                                       </p>
-                                       <img  src="assets/images/attendance_save.png" style="    width: 795px;">
-                                          
-                                        
-                                         
-                                    
-                                 
-                                </div><!--//section-block-->
-                               
-                                    <!-- <h1>Print me</h1>  -->
-                                </div> 
-                              
-                            </section><!--//doc-section-->
-                            <section id="member_attendances_report_section" class="doc-section">
-                                <div id="printinstallation"> 
-                                <h2 class="section-title">কিভাবে মেম্বার অ্যাটেনডেন্স রিপোর্ট দেখতে পাবেন </h2>
-                                <div id="step1"  class="section-block">
-                                   
-                                   <p>
-                                       Member মডিউল এর ভিতরে Member Attendance Report নামে একটি সাব-মডিউল আছে,যেখানে সমিতিতে উপস্থিত এবং অনুপস্থিত সদস্যদের তথ্য জমা রাখা হয় এই প্রতিবেদনের  মাধ্যমে  সদস্যদের  উপস্থিতি  এবং অনুপস্থিতি দৈনিক বা সাপ্তাহিক কিংবা চাইলে মাসিক প্রতিবেদনও যাচাই করা যায় । 
-                                    </p>
-                                    <p>
-                                      Member মডিউলের ভিতর  Member Attendance Report এ ক্লিক করলে একটি পৃষ্ঠা প্রদর্শিত হবে।উক্ত পৃষ্ঠায় ৩টি ফিল্ড আছে ,যথাক্রমে ব্রাঞ্চ,সমিতির নাম এবং তারিখ। 
-                                    </p>
-
-
-                                     <img  src="assets/images/attendance_report_list.png" style="    width: 795px;">
-                                        <p> 
-                                       ব্রাঞ্চ এর নাম সফটওয়্যার কর্তৃক সিলেক্ট করা থাকে,এরপর ব্রাঞ্চের অধীনে যে সমিতির  সদস্যসের  Attendance Report দেখতে চাইবে সেই সমিতির নাম সিলেক্ট করতে হবে । সমিতির নাম সিলেক্ট করার পর যে তারিখের Attendance Report দেখতে চাইবে সেই তারিখ সিলেক্ট করতে হবে । তারিখ ও সমিতির নাম সিলেক্ট করার পর, পাশে একটি Show বাটন আছে ,উক্ত বাটনে ক্লিক করুন
-                                        </p>
-                                        <img  src="assets/images/attendance_report_btn.png" style="    width: 795px;">
-                                       <p>
-                                       ক্লিক করার পর একই পেইজে একটি টেবিল প্রদর্শিত হবে
-                                      </p>
-                                       <img  src="assets/images/attendance_report_member.png" style="    width: 795px;">
-                                        <p>
-                                      এই টেবিলে ব্রাঞ্চের অধীনে সিলেক্টকৃত সমিতির কোন নির্দিষ্ট তারিখের সদস্যদের উপস্থিত এবং অনুপস্থিতি যাচাই করা হয় ।সদস্যর Attendance Report এ Status কলামে Present এর মাধ্যমে সদস্যর উপস্থিতি বুঝায় এবং Absent দিয়ে সদস্যর অনুপস্থিতি বুঝায়। 
-                                      </p>
-                                       <img  src="assets/images/attendance_report_pdf_printer_execl.png" style="    width: 795px;">
-                                       <p>
-                                        প্রোয়জনে Member Attendance Report গুলো  আমরা প্রিন্ট করতে পারি অথবা পিডিএফ  ফাইল হিসাবে  ডাউনলোড করে রাখিতে পারি কিংবা চাইলে Microsoft Excel  এ রিপোর্টটি  Open করতে পারি।
-                                       </p>
-                                       <p>
-                                         পিডিএফ ফাইল হিসাবে ডাউনলোড করতে হলে পিডিএফ এর আইকনে ক্লিক করতে হবে।পিডিএফ আইকনে ক্লিক করলে রিপোর্ট ডাউনলোড হবে। 
-
-                                         রিপোর্ট প্রিন্ট করতে চাইলে প্রিন্টার এর আইকনে ক্লিক করে রিপোর্ট প্রিন্ট করা যায়।
-
-                                         এবং রিপোর্ট-টি  Microsoft Excel এ Open করতে হলে Excel এর আইকনে ক্লিক করে ওপেন করতে হবে।  
-
-                                       </p>
-
-                                 
-                                </div><!--//section-block-->
-                            
-                                    <!-- <h1>Print me</h1>  -->
-                                </div> 
-                              
-                            </section><!--//doc-section-->
-
-                                  <section id="all_report" class="doc-section">
-                                <div id="printinstallation"> 
-                                <h2 class="section-title"> রিপোর্ট  </h2>
-                                <div id="step1"  class="section-block">
-                                   
-                                   <p>
-                                       একটি প্রতিষ্ঠানের রিপোর্ট সমূহকে ভিন্ন ভিন্ন ভাগে ভাগ করা হয়ে থাকে নিম্নে রিপোর্ট সমূহ আলচনা করা হল
-                                    </p>
-                                    <p>
-                                      
-                                      <p>Member মডিউলের ভিতর  Member Attendance Report এ ক্লিক করলে একটি পৃষ্ঠা প্রদর্শিত হবে।উক্ত পৃষ্ঠায় ৩টি ফিল্ড আছে ,যথাক্রমে ব্রাঞ্চ,সমিতির নাম এবং তারিখ।
-                                      </p> 
-                                      <a class="nav-link scrollto" ><b>1:pksf pomis 1 reports : palli karma sahayak foundation</b></a>
-                                      <nav  class="doc-sub-menu nav flex-column">
-                                        <a class="nav-link scrollto" href="#html"><i class="fas fa-angle-right"></i>&nbsp;1.1:Pksf pomis 1reorts</a>
-                                        <a class="nav-link scrollto " href="#css"><i class="fas fa-angle-right"></i>&nbsp;1.2:pksf pomis 2report</a>
-                                        <a class="nav-link scrollto " href="#sass"><i class="fas fa-angle-right"></i>&nbsp;1.3: pksf pomis reports</a>
-                                        <a class="nav-link scrollto " href="#less"><i class="fas fa-angle-right"></i>&nbsp;1.4: pksf pomis reports</a>
-                                        <a class="nav-link scrollto " href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;1.4: pksf pomis reports</a>
-                                       </nav><!--//nav--> 
-                                      <a class="nav-link scrollto" ><b> 2:Mra reports :micrecaitd regulatory authority</b></a>
-                                      <nav  class="doc-sub-menu nav flex-column">
-                                        <a class="nav-link scrollto" href="#html"><i class="fas fa-angle-right"></i>&nbsp;  2.1:mra-mfi-01</a>
-                                        <a class="nav-link scrollto " href="#css"><i class="fas fa-angle-right"></i>&nbsp; 2.2:mra-mfi-03/A</a>
-                                        <a class="nav-link scrollto " href="#sass"><i class="fas fa-angle-right"></i>&nbsp;2.3:mra-mif-03/B</a>
-                                        <a class="nav-link scrollto " href="#less"><i class="fas fa-angle-right"></i>&nbsp;2.4:mra-mif-04/A</a>
-                                        <a class="nav-link scrollto " href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;2.5:mra-mfi-02</a>
-                                        <a class="nav-link scrollto " href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;2.6:mra-llp-01</a>
-                                        <a class="nav-link scrollto " href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;2.7:mra-llp-02</a>
-                                        <a class="nav-link scrollto " href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;2.8:mra-llp-03</a>
-                                        <a class="nav-link scrollto " href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;2.9:mra-llp-04</a>
-                                        <a class="nav-link scrollto " href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;10.1:mra-llp-05</a>
-                                        <a class="nav-link scrollto " href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;10.2:mra-llp-06</a>
-                                        <a class="nav-link scrollto " href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;MRA monthly report</a>
-                                       </nav><!--//nav--> 
-                                     
-                                          <a class="nav-link scrollto" ><b>  3:Regular and general report (Branch level)</b></a>
-                                      <nav  class="doc-sub-menu nav flex-column">
-                                        <a class="nav-link scrollto" href="#html"><i class="fas fa-angle-right"></i>&nbsp; 3:Regular and general report (Branch level)</a>
-                                        <a class="nav-link scrollto " href="#css"><i class="fas fa-angle-right"></i>&nbsp;1:Daly collaction component wast</a>
-                                        <a class="nav-link scrollto " href="#sass"><i class="fas fa-angle-right"></i>&nbsp;3:weekly monthlay savings and lone statement</a>
-                                        <a class="nav-link scrollto " href="#less"><i class="fas fa-angle-right"></i>&nbsp;4:loan classification and dmr</a>
-                                        <a class="nav-link scrollto " href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;5:monthly loan and sving collection sheet</a>
-                                        <a class="nav-link scrollto " href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;6:periodie collection component wise</a>
-                                    
-                                       
-                                       </nav><!--//nav-->   
-                                        <a class="nav-link scrollto" ><b>4.1 Register report(branch level)</b></a>
-                                      <nav  class="doc-sub-menu nav flex-column">
-                                        <a class="nav-link scrollto" href="#html"><i class="fas fa-angle-right"></i>&nbsp; 4.1.1 Admission  register</a>
-                                        <a class="nav-link scrollto " href="#css"><i class="fas fa-angle-right"></i>&nbsp;4.1.2 saving refund register</a>
-                                        <a class="nav-link scrollto " href="#sass"><i class="fas fa-angle-right"></i>&nbsp;4.1.3 loan disbursment register</a>
-                                        <a class="nav-link scrollto " href="#less"><i class="fas fa-angle-right"></i>&nbsp;4.1.4 fully paid loan register</a>
-                                        <a class="nav-link scrollto " href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;4.1.5 member cancellation register</a>
-                                        <a class="nav-link scrollto " href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;4.1.6 member wise subsidary loan and saving ledger</a>
-                                         <a class="nav-link scrollto " href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;4.1.7 inactive member register</a>
-                                         <a class="nav-link scrollto " href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;4.1.9 due register</a>
-                                          <a class="nav-link scrollto " href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;4.1.11 written off register</a>
-                                          <a class="nav-link scrollto " href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;4.1.12 written of collection register</a>
-                                          <a class="nav-link scrollto " href="#javascript"><i class="fas fa-angle-right"></i>&nbsp; 4.1.13 dual loan </a>
-                                          <a class="nav-link scrollto " href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;4.1.15 rebate register report</a>
-                                          <a class="nav-link scrollto " href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;4.1.16 due collection register</a>
-                                          <a class="nav-link scrollto " href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;4.1.17 loan adjustment register</a>
-                                          <a class="nav-link scrollto " href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;4.1.19 holiday due register</a>
-                                          <a class="nav-link scrollto " href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;4.1.14 loan wiver for death member</a>
-                                          <a class="nav-link scrollto " href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;4.1.20 loan disbursment & recovery</a>
-                                           <a class="nav-link scrollto " href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;4.1.22 FDR register</a>
-                                           <a class="nav-link scrollto " href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;4.1.24 samity wise member report </a>
-                                           <a class="nav-link scrollto " href="#javascript"><i class="fas fa-angle-right"></i>&nbsp;4.1.26 saving collection report</a>
-                                          
-                                       </nav><!--//nav-->                                     
-                                    
-                                     <p>
-                                       পরিশেষে আমরা বলতে  পারি যে আমাদের সফটয়ারটি ব্যবহারের ফলে তথ্যগুলো যেমন সুসংগঠিত অবস্থায় থাকবে এবং ভুল ভ্ৰান্তি সনাক্ত হবে তেমনি ,দ্রততার সাথে কালেকশনশিট  প্রিন্ট লেজার কর্মীদের সাপ্তাহিক রিপোর্ট সীটে সদস্যদের নাম, ট্রান্সপার,মাসিক রিপোর্ট সহ বহুবিদি সুবিধা পাওয়া যাবে এচাড়াও (এস কে এফ )ও (এম আর এ )এর চাহিদা অনুযায়ী সকল ধরণের রিপোর্ট সহ রিয়েল টাইম তথ্য সঠিক ভাবে পাওয়া যাবে এবং তথ্য গুলো সমন্বিত করা সম্বভ হবে ফলশূতিতে হ্মুদ্রঋণ কার্যক্রমে নিয়োজিত প্রতিষ্ঠানসমূহের সুশাসন ও শৃঙ্খলা প্রতিষ্ঠিত হবে
-                                     </p>
-                                    
-
-                                 
-                                </div><!--//section-block-->
-                            
-                                    <!-- <h1>Print me</h1>  -->
-                                </div> 
-                              
-                            </section><!--//doc-section-->
-                               
-                            </div>
-                              
-                        </div><!--//content-inner-->
-                    </div><!--//doc-content-->
-                    <!--//doc-sidebar-->
-                </div><!--//doc-body-->              
-            </div><!--//container-->
-        </div><!--//doc-wrapper-->
-        
-        <div id="promo-block" class="promo-block">
+        </nav><!--//header-->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h3>Loan Management</h3>
+                    <p style="text-align: justify;">View loan details including repayments, loan terms, loan schedule, collateral, files, and comments. You can also print loan statements and schedule for your borrowers.
+                    </br>
+                     Set loan fees, grace period, and penalties. See a snapshop of the loan on one page. You can even Send SMS to the borrower.</p>
+                </div>
+                <div class="col-lg-8">
+                    <img  style="float: right; width: 86%; margin-top: 27px;" src="assets/images/home/page1.png">
+                </div>
+            </div>
+            <div class="row" style="margin-top: 100px">
+                <div class="col-lg-8">
+                    <img  style="width: 86%; margin-top: 27px;" src="assets/images/home/page1.png">
+                </div>
+                <div class="col-lg-4">
+                    <h3>Savings Accounts</h3>
+                    <p style="text-align: justify;">Create savings account for your borrowers and add transactions such as deposits and withdrawals. You can also print savings statement and give this to the borrower.
+                    </br>
+                    
+                    The system will automatically add interest to the savings account depending on your savings product.</p>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 100px">
+                <div class="col-lg-4">
+                    <h3>Member Management</h3>
+                    <p style="text-align: justify;">Now you can manage your staff like a bank! You can assign branches to your staff and give them roles such as Cashier, Teller, Operations Manager, Collector, and Branch Manager.
+                    </br>
+                    You can set permissions for each staff role and control what pages they can see and the branches they can operate in the admin area.</p>
+                </div>
+                <div class="col-lg-8">
+                    <img  style="float: right; width: 86%; margin-top: 27px;" src="assets/images/home/page1.png">
+                </div>
+            </div>
+            <div class="row" style="margin-top: 100px; margin-bottom: 50px;">
+                <div class="col-lg-8">
+                    <img  style="width: 86%; margin-top: 27px;" src="assets/images/home/page1.png">
+                </div>
+                <div class="col-lg-4">
+                    <h3>Samity Management</h3>
+                    <p style="text-align: justify;">View detailed charts and see how your loan released and collections are changing month to month. You can also view cash flow reports and profit/loss statements.
+                    </br>
+                    
+                    This will allow you to instantly see your business performance through graphic charts and take informed decisions.</p>
+                </div>
+            </div>
+        </div>
+          <div id="promo-block" class="promo-block">
             <div class="container">
                 <div class="promo-block-inner">
                    
@@ -1359,13 +155,12 @@
                 </div><!--//promo-block-inner-->  
             </div><!--//container-->
         </div><!--//promo-block-->
-        
-    </div><!--//page-wrapper-->
+    </div>
     
-    <footer id="footer" class="footer text-center">
+    <footer class="footer text-center">
         <div class="container">
             <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
-            <small class="copyright">Develope BY <i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com/" target="_blank">Tmss-ict</a> For User</small>
+            <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="https://tmss-ict.com/" target="_blank"></a> for Users</small>
             
         </div><!--//container-->
     </footer><!--//footer-->
@@ -1373,31 +168,10 @@
      
     <!-- Main Javascript -->          
     <script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
-    <!-- <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> -->
-    <script type="text/javascript" src="assets/plugins/prism/prism.js"></script>    
-    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>      
-    <script type="text/javascript" src="assets/plugins/stickyfill/dist/stickyfill.min.js"></script>                                                             
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>     
+    <script type="text/javascript" src="assets/plugins/stickyfill/dist/stickyfill.min.js"></script>                                                                
     <script type="text/javascript" src="assets/js/main.js"></script>
     
 </body>
-<script type="text/javascript">
-
-
-function printFullpage(divName) 
- {  
-     
-  
-
-
-        var divToPrint=document.getElementById(divName);
-          var newWin=window.open('','Print-Window');
-          newWin.document.open();
-          newWin.document.write('<html> <style type="text/css">body{ font-size:15px; margin:0px;}</style><body onload="window.print()">'+divToPrint.innerHTML+'</body></html>');
-          newWin.document.close();
-
-
-}
-
-</script>
 </html> 
 
