@@ -3259,13 +3259,13 @@
                                 <div id="printinstallation"> 
                                 <h2 class="section-title">
                                 
-                                কিভাবে অটো ভাউচার কনফিগারেশন(Auto Voucher Configuration) করবেন
-                                                                       
+                              
+                                অটো ভাউচার কনফিগারেশন(Auto Voucher Configuration) এন্ট্রির নিয়মাবলী                                      
                                 </h2>
                                 <div id="step1"  class="section-block">
                                    
                                    <p>
-                                    অটো ভাউচার কনফিগারেশন (Auto Voucher Configuration) এর কাজ হলো বিভিন্ন প্রোডাক্টের কোড গুলো এন্টি করা। যেমন এটি মুলত তথ্যগুলো কিভাবে পাওয়া যাবে তাহার পূর্ব রুপরেখা বলে দেওয়া।Auto Voucher পেতে হলে এখান থেকে Ledger Account হেড এর কোড অনুযায়ি Loan Primary Product এবং Principal Code ও Service Charge Code ও Risk Insurance Code  ও Product Interest Code এবং Debit_account (cash code) -এর মধ্যে Ledger Code গুলো এন্ট্রি দিতে হবে।
+                                    অটো ভাউচার কনফিগারেশন (Auto Voucher Configuration) এর কাজ হলো MIS  পার্টের বিভিন্ন প্রোডাক্ট এর সাথে AIS পার্টের  একাউন্ট হেড এর  সংযুক্ত করা ।যেমন এটি মুলত MIS এর  তথ্যগুলো কিভাবে AIS পাওয়া যাবে তাহার পূর্ব রুপরেখা বলে দেওয়া।  AIS এর অটো ভাউচার(Auto Voucher ) এ ডাটা পেতে হলে AIS  এর  Auto Voucher Configuration কনফিগারেশন এ  Ledger Account হেড এর কোড অনুযায়ী  Loan Primary Product এবং Principal Code ও Service Charge Code ও Risk Insurance Code ও Product Interest Code এবং Debit_account (cash code)  ফিলড  গুলো পূরণ করতে হবে 
 
                                    </p>
                                   
@@ -3284,30 +3284,30 @@
                                <section id="opening_balance" class="doc-section">
                                 <div id="printinstallation"> 
                                 <h2 class="section-title">
-                                  কিভাবে ওপেনিং বেলেন্স(Opening Balance) সফটওয়্যারে এন্ট্রি করবেন                       
+                                  
+                                  ওপেনিং বেলেন্স(Opening Balance) এন্ট্রির নিয়মাবলী                      
                                 </h2>
                                 <div id="step1"  class="section-block">
                                    
                                    <p>
-                                    সফটওয়্যারের AIS(Accounting Infromation System) এ কনফিগারেশন অপশনের  ওপেনিং ব্যালেন্সে এ ক্লিক করার পর  একটি লিস্ট আসে,যেখানে ব্রাঞ্চের  Software Start Date এর পূর্বের লেনদেন সমূহের Amount Posting দিতে হবে । 
+                                    সফটওয়্যারের AIS(Accounting Infromation System) এর কনফিগারেশন অপশনের  ওপেনিং ব্যালেন্সে এ ক্লিক করার পর  একটি লিস্ট আসে,যেখানে ব্রাঞ্চের  Software Start Date এর পূর্বের লেনদেন সমূহের Amount Posting দিতে হবে । 
 
                                    </p>
                                   
                                     <img  src="assets/images/opening_balance_list.png" style="  width: 765px;height: 340px;">
                                     <p>
-                                    সফটওয়্যার মাইগ্রেশন করার সময় ব্রাঞ্চের পূর্বের অবশিষ্ঠ ব্যালেন্স সফটওয়্যারে এন্ট্রি করা হচ্ছে ওপেনিং ব্যালেন্স। আর ওপেনিং ব্যালেন্সের ক্ষেত্রে অবশ্যই পূর্বের হিসাবের ডেবিট এবং ক্রেডিট সমান থাকতে হবে। 
+                                    সফটওয়্যার মাইগ্রেশন করার সময় ব্রাঞ্চের পূর্বের অবশিষ্ঠ ব্যালেন্স সফটওয়্যারে এন্ট্রি করা হচ্ছে ওপেনিং ব্যালেন্স।
+                                    ব্রাঞ্চের  রিপোর্টের রিসিভ পেমেন্ট অনুযায়ী এই ফ্রম এন্ট্রি করে সেভ বাটন এ ক্লিক করলেই । ওপেনিং ব্যালান্স সফটওয়্যার এ এন্ট্রি হয়ে যাবে  
 
                                     </p>
-                                        <img  src="assets/images/opening_balance_Debit_credit.png" style="    width: 765px;height: 340px;">
-                                     <p>
-                                     এরপর সেভ বাটোনে ক্লিক করে ওপেনিং ব্যালেন্সের হিসাব সফটওয়্যারে সেভ করতে 
-
-                                    </p>
+                                       
                                    
 
                                      <img  src="assets/images/opening_balance_save.png" style=" width: 765px;height: 340px;">
                              
-                                     
+                                     <span style="color:red">
+                                        [ Expense এর জন্য Payment । Income এর জন্য receive ]
+                                    </span>
                                      
                                      
                                      
@@ -3320,26 +3320,29 @@
                             <section id="receipt_vouchar" class="doc-section">
                                 <div id="printinstallation"> 
                                 <h2 class="section-title">
-                                 কিভাবে রিসিভ ভাউচার(Receipt Voucher ) সফটওয়্যারে এন্ট্রি করবেন?
-                                                     
+                               
+                                 রিসিভ ভাউচার(Receipt Voucher ) এন্ট্রির নিয়মাবলী                
                                                      
                                 </h2>
                                 <div id="step1"  class="section-block">
                                    
                                    <p>
-                                    রিসিভ ভাউচারের মধ্যেমে ব্যাংক এবং কেস(Cash) এর সকল  প্রকার টাকা গ্রহন করাকে বুজায়।প্রথমে ভাইচারে মডিউলে মাউস পয়েন্টার নিলে কত গুলো অপশন আসবে ঐ অপশন থেকে রিসিভ ভাউচারে ক্লিক করতে হবে।
+                                    রিসিভ ভাউচারের মাধমে ব্যাংক এবং কেস(Cash) এর সকল  প্রকার টাকা গ্রহন করা হয় ।প্রথমে ভাইচারে মডিউলে মাউস পয়েন্টার নিলে কত গুলো অপশন আসবে ঐ অপশন থেকে রিসিভ ভাউচারে ক্লিক করতে হবে।
 
                                    </p>
                                   
                                     <img  src="assets/images/reciept_voucher_view.png" style=" width: 765px;height: 340px;">
                                     <p>
-                                   ক্লিক করার পরে একটি ভাউচার লিস্ট আসবে ,এবার নিচের চিএ অনুযায়ী ভাউচার লিস্ট এর ফিল্ড গুলো পূরণ করতে হবে
+                                   ক্লিক করার পরে একটি ভাউচার ফ্রম আসবে ,এবার নিচের চিএ অনুযায়ী ভাউচার ফ্রম এর ফিল্ড গুলো পূরণ করতে হবে
 
                                     </p>
                                         <img  src="assets/images/reciept_voucher_report.png" style=" width: 765px;height: 340px;">
                                      <p>
-                                     ভাউচারের মধ্যে প্রথম ফিল্ড হচ্ছে funding organization এই ফিল্ডটি ফিক্সড করা থাকবে,তার পরের ফিল্ড হবে ডেবিট অ্যাকাউন্ট ফিল্ড,এর মধ্যে বলে দিতে হবে যে টাকা কি ব্যাংক অ্যাকাউন্ট এর মধ্যে জমা হবে নাকি কেস ইন হ্যান্ড এর মাধ্মে জমা হবে তা বলে দিতে হবে ।তার পরের ফিল্ড হবে ভাউচার ডেইট এবং ভাউচার  কোড ,এই গুলো  অটো সিলেক্ট হয়ে  যাবে। তার পরের ফিল্ড হবে ক্রেডিট অ্যাকাউন্ট  এ গিয়ে বলে দিতে হবে কোন অ্যাকাউন্ট থেকে আমার টাকা আসতেছে তা বলে দিতে হবে ,তার পরের ফিল্ড হবে ক্রেডিট এমাউন্ট এর মধ্যে বলে দিতে হবে কত  আমার ট্রানজিশন হবে তা বলে দিতে হবে তার পরের ফিল্ড হবে রিসিভ টাইপের  মধ্যে দুইটি অপশন থাকবে ক্যাশ এবং ব্যাংক যদি ক্যাশ এ দেওয়া হয় তাহলে ক্যাশ সিলেক্ট করেদিতে হবে ,আর যদি চেক এর মাধমে হয় তা হলে ব্যাংক নাম চেক নং চেক ডেইট দিতে হবে । তার পরের ফিল্ড হচ্ছে নেরেসান চেক ডিটেল এর মধ্যে গিয়ে বলে দিতে হবে কোন ধরনের লেনদেন হচ্ছে তা বলে  দিতে হবে তারপরে অ্যাড বাটনের মাধমে অনেকগুলো রিসিভ ভাউচারের ট্রানজেকশন অ্যাড করে সেইভ করা যায় 
+                                      Receipt Voucher এর ক্ষেত্রে এন্ট্রি দেওয়ার জন্য ডেবিট একাউন্ট থেকে ডেবিট হিসাব টি সিলেক্ট করতে হবে।ক্রেডিট একাউন্ট থেকে ক্রেডিট হিসাবটি সিলেক্ট করতে হবে। তারপর এমাউন্ট এ ট্রান্সেকশন এমাউন্ট লিখতে হবে। একাদিক ট্রান্সেকশন একসাথে করতে চাইলে অ্যাড বাটনে ক্লিক করে করতে হবে।
 
+                                    </p>
+                                    <p>
+                                      এর Narration/Cheque Details এ হিসাবের শর্ট ডেসক্রিপশন এবং Global Narration এ হিসাবের  Narration লিখতে হবে। তারপর সেইভ বাটনে ক্লিক করলে ভাউচার Save হবে।
                                     </p>
                                    
 
@@ -3372,19 +3375,20 @@
                                   
                                     <img  src="assets/images/contra_vouchar_list.png" style="  width: 765px;height: 340px;">
                                     <p>
-                                   Contra Voucher অপশনে করার পর আমারা  Contra Voucher এর ফর্ম  যাব নিম্মে ফর্ম টি দেওয়া আছে ।
+                                   Contra Voucher অপশনে ক্লিক করলে একটি ভাউচার ফ্রম আসবে ,এবার নিচের চিএ অনুযায়ী ভাউচার ফ্রম এর ফিল্ড গুলো পূরণ করতে হবে
 
                                     </p>
                                         <img  src="assets/images/contra_vouchar_report.png" style="width: 765px;height: 340px;">
                                      <p>
-                                    অতঃপর আমরা এই ফর্ম এর Funding Organization, Voucher Date, Voucher Code, Debit Account Cedit Account , Amount , Receipt Type, Narration/Cheque Details বক্স গুলো পূরণ করে আমাদের কে Contra Voucher এর ভুল লেনদেন সমূহ সঠিক করে নিতে পারি। কিভাবে Contra Voucher ফর্ম পূরণ করবেন টা ছবি সহ দেওয়া হল ।
+                                      Contra Voucher এর ক্ষেত্রে এন্ট্রি দেওয়ার জন্য ডেবিট একাউন্ট থেকে ডেবিট হিসাব টি সিলেক্ট করতে হবে।ক্রেডিট একাউন্ট থেকে ক্রেডিট হিসাবটি সিলেক্ট করতে হবে। তারপর এমাউন্ট এ ট্রান্সেকশন এমাউন্ট লিখতে হবে। একাদিক ট্রান্সেকশন একসাথে করতে চাইলে অ্যাড বাটনে ক্লিক করে করতে হবে।
 
                                     </p>
+                                    <p>
+                                      আর Narration/Cheque Details এ হিসাবের শর্ট ডেসক্রিপশন এবং Global Narration এ হিসাবের  Narration লিখতে হবে। তারপর সেইভ বাটনে ক্লিক করলে ভাউচার Save হবে।
+  
+                                     </p>
+                                     
                                     <img  src="assets/images/contra_vouchar_view.png" style=" width: 765px;height: 340px;;">
-                                     <p>
-                                    ফর্ম টি পূরণ করে নিচের Save বাটন Click করে লেনদেন ঠিক করে নিবো ।
-
-                                    </p>
                                    
                                     <p>
 
@@ -3394,6 +3398,7 @@
                                        
                                         <img  src="assets/images/contra_1.png" style="width: 461px;height: 53px;">
                                         <br>
+                                        <p>Example Entry: ধরুন 10000 টাকা Bank এ জমা দেয়া হলো। নিচে Vouchar টি Entry দিয়ে দেখানো হলো ।</p>
                                         <img  src="assets/images/contra_1_exam.png" style="width: 742px;
                                         height: 129px;">
                                        
@@ -3406,13 +3411,27 @@
                                         
                                          <img  src="assets/images/cotra_2.png" style="width: 473px;height: 53px;">
                                          <br>
+                                         <p>Example Entry: ধরুন 10000 টাকা Bank থেকে উত্তোলন । নিচে Vouchar টি Entry দিয়ে দেখানো হলো ।</p>
                                          <img  src="assets/images/contra_2_exam.png" style="width: 742px;
                                          height: 129px;">
  
  
        
                                         
-                                     </p>                                  
+                                     </p>   
+                                     <p>
+
+                                        নগদে পণ্য বিক্রির ক্ষেত্রে: Contra Voucher
+                                       
+                                     
+                                      
+                                       <img  src="assets/images/journal_5.png" style="width: 494px;height: 53px;">
+                                       <br>
+                                       <p>Example Entry: ধরুন 10000 টাকা নগদে পণ্য বিতরণ । নিচে Vouchar টি Entry দিয়ে দেখানো হলো ।</p>
+                                       <img  src="assets/images/journal_5_exam.png" style="width: 742px;
+                                       height: 129px;">
+                                       
+                                   </p>                                
                              
                                      
                                      
@@ -3432,34 +3451,28 @@
                                 <div id="step1"  class="section-block">
                                    
                                    <p>
-                                   ভাউচার মডিউল থেকে পেমেন্ট ভাউচার ফিচারটি সিলেক্ট করতে হবে ।
+                                    পেমেন্ট  ভাউচারের মাধমে ব্যাংক এবং কেস(Cash) এর সকল  প্রকার টাকা প্রদান  করা হয় ।প্রথমে ভাইচারে মডিউলে মাউস পয়েন্টার নিলে কত গুলো অপশন আসবে ঐ অপশন থেকে পেমেন্ট ভাউচারে ক্লিক করতে হবে। 
 
                                    </p>
                                   
                                     <img  src="assets/images/payment_voucher_list.png" style=" width: 765px;height: 340px;">
                                     <p>
-                                     সিলেক্ট করার সাথে সাথে একটা লিস্ট আসবে।
+                                      ক্লিক করার পরে একটি ভাউচার ফ্রম আসবে ,এবার নিচের চিএ অনুযায়ী ভাউচার ফ্রম এর ফিল্ড গুলো পূরণ করতে হবে
+
+
 
                                     </p>
                                         <img  src="assets/images/payment_voucher_report.png" style="width: 765px;height: 340px;">
                                      <p>
-                                     তারপর কোন অর্গানাইজেশন থেকে পেমেন্ট হবে ফান্ডিং অর্গানাইজেশন থেকে সিলেক্ট করবো।
+                                      Payment Voucher এর ক্ষেত্রে এন্ট্রি দেওয়ার জন্য ডেবিট একাউন্ট থেকে ডেবিট হিসাব টি সিলেক্ট করতে হবে।ক্রেডিট একাউন্ট থেকে ক্রেডিট হিসাবটি সিলেক্ট করতে হবে। তারপর এমাউন্ট এ ট্রান্সেকশন এমাউন্ট লিখতে হবে। একাদিক ট্রান্সেকশন একসাথে করতে চাইলে অ্যাড বাটনে ক্লিক করে করতে হবে।
 
                                     </p>
                                    
                                      <p>
-                                    তারপর ক্রেডিট একাউন্ট থেকে কোন মাধ্যমে ক্যাশ দিবো ঐ মাধ্যম সিলেক্ট করতে হবে।ভাউচার ডেইট এবং ভাউচার কোড তা অটোমেটিক আসে।তারপর কিসের জন্য খরচ করবো ঐ অপশন টি ডেবিট একাউন্ট থেকে সিলেক্ট করবো।কত টাকা খরচ করছি ঐ এমাউন্ট এন্ট্রি দিতে হবে ডেবিট এমাউন্টে।রিসিভ টাইপ থেকে কোন মাধ্যমে টাকা পেমেন্ট করবে তা সিলেক্ট করতে হবে।নেরেশান/চেক ডিটেলস এ কিসের জন্য পেমেন্ট করছে তা স্পেসিফিক্যালি বলে দেওয়া যাবে।
+                                       তারপর Narration/Cheque Details এ হিসাবের শর্ট ডেসক্রিপশন এবং Global Narration এ হিসাবের  Narration লিখতে হবে। তারপর সেইভ বাটনে ক্লিক করলে ভাউচার Save হবে।
 
                                     </p>
-                                      <p>
-                                       যদি আরও কিছু জিনিসের জন্য পেমেন্ট করতে চাই অ্যাড বাটন  এ ক্লিক করলে নতুন রো আসবে ঐ রো তে পূর্বের ন্যায় অ্যাড করে নিব  ।
-
-                                    </p>
-                                     <img  src="assets/images/payment_voucher_view.png" style=" width: 765px;height: 340px;">
-                                        <p>
-                                      তারপর গ্লোবাল নেরেশান  এ  কি কি জিনিসের জন্য পেমেন্ট করা হয়েছে সব একসাথে লিখে দিব। তারপর সেভ বাটন এ ক্লিক করলে পেমেন্ট ভাউচার এর কাজ শেষ ।
-
-                                    </p>
+                                     
                                
                                     <p>
 
@@ -3469,6 +3482,7 @@
                                         
                                          <img  src="assets/images/payment_1.png" style="width: 473px;height: 53px;">
                                          <br>
+                                         <p>Example Entry: ধরুন 10000 টাকা বেতন প্রদান করা হলো  । নিচে Vouchar টি Entry দিয়ে দেখানো হলো ।</p>
                                          <img  src="assets/images/payment_1_exam.png" style="width: 742px;
                                          height: 129px;">
  
@@ -3507,7 +3521,7 @@
                                    </p>
                                     <img  src="assets/images/journal_voucher_report.png" style=" width: 765px;height: 340px;">
                                     <p>
-                                    আর Narration/Cheque Details এ হিসাবের শর্ট ডেসক্রিপশন এবং Global Narration এ হিসাবের শর্ট ডেসক্রিপশন লিখতে হবে। তারপর সেইভ বাটনে ক্লিক করলে ভাউচার Save হবে।   
+                                      তারপর Narration/Cheque Details এ হিসাবের শর্ট ডেসক্রিপশন এবং Global Narration এ হিসাবের Narration ডেসক্রিপশন লিখতে হবে। তারপর সেইভ বাটনে ক্লিক করলে ভাউচার Save হবে।   
 
                                    </p>
 
@@ -3519,6 +3533,7 @@
                                       
                                        <img  src="assets/images/journal_1.png" style="width: 473px;height: 53px;">
                                        <br>
+                                       <p>Example Entry: ধরুন 10000 টাকা  বেতন বাবদ কর্তন করা হলো  । নিচে Vouchar টি Entry দিয়ে দেখানো হলো ।</p>
                                        <img  src="assets/images/journal_1_exam.png" style="width: 742px;
                                        height: 129px;">
 
@@ -3534,6 +3549,7 @@
                                       
                                        <img  src="assets/images/journal_2.png" style="width: 473px;height: 53px;">
                                        <br>
+                                       <p>Example Entry: ধরুন 10000 টাকা  আবাসন বাবদ কর্তন করা হলো  । নিচে Vouchar টি Entry দিয়ে দেখানো হলো ।</p>
                                        <img  src="assets/images/journal_2_exam.png" style="width: 742px;
                                        height: 129px;">
 
@@ -3549,6 +3565,7 @@
                                     
                                      <img  src="assets/images/journal_3.png" style="width: 473px;height: 53px;">
                                      <br>
+                                     <p>Example Entry: ধরুন এই বছর  10000 টাকা TSS provision হলো । নিচে Vouchar টি Entry দিয়ে দেখানো হলো ।</p>
                                      <img  src="assets/images/journal_3_exam.png" style="width: 742px;
                                      height: 129px;">
 
@@ -3557,43 +3574,13 @@
                                     
                                  </p> 
                                 
-                               <p>
-
-                                  ফান্ডের মাধমে পাসবই ক্রয় হলে : Journal Voucher
-                                 
-
-                                
-                                 <img  src="assets/images/journal_4.png" style="width: 473px;height: 53px;">
-                                 <br>
-                                 <img  src="assets/images/journal_4_exam.png" style="width: 742px;
-                                 height: 129px;">
-
-
-
-                                
-                             </p> 
-                             <p>
-
-                                নগদে পণ্য বিক্রি হলে প্রথমে Receipt Voucher
-                               
-
-                              
-                               <img  src="assets/images/journal_5.png" style="width: 494px;height: 53px;">
-                               <br>
-                               <img  src="assets/images/journal_5_exam.png" style="width: 742px;
-                               height: 129px;">
-                               <br>
-                               তারপর Journal Voucher দিতে হবে
-                               <img  src="assets/images/journal_6.png" style="width: 546px;height: 53px;">
-                               <br>
-                               <img  src="assets/images/journal_6_exam.png" style="width: 742px;
-                               height: 129px;">
-                           </p> 
+                     
                            <p>
                               শাখায়  Write Off হলে সেটা Journal Vourcher এর মাধ্যমে Entry হবে । <br>
                              
                                 <img  src="assets/images/journal_7.png" style="width: 743px;height: 53px;">
                                   <br>
+                                  <p>Example Entry: ধরুন এই বছর  10000 টাকা  Write Off হলো । নিচে Vouchar টি Entry দিয়ে দেখানো হলো ।</p>
                                   <img  src="assets/images/journal_7_exam.png" style="width: 742px;
                                   height: 129px;">
                                 </p>
@@ -3612,7 +3599,7 @@
                                 <div id="step1"  class="section-block">
                                    
                                    <p>
-                                    ফান্ড ট্রান্সফার ভাউচারের মাধ্যমে কোন ব্রাঞ্চ অন্য কোন ব্রাঞ্চে ফান্ড বা টাকা ট্রান্সফার করার ক্ষেত্রে এটি ব্যাবহার করে থাকে।ভাউচার (VOUCHER) নামক মডিউলে মাউস পয়েন্টার নিলে ফান্ড ট্রান্সফার নামক অপশনে ক্লিক করতে হবে।
+                                    ফান্ড ট্রান্সফার ভাউচারের মাধ্যমে  একটি ব্রাঞ্চ থেকে আর একটি ব্রাঞ্চে,হেড অফিস থেকে ব্রাঞ্চে,ব্রাঞ্চ থেকে হেড অফিসে ফান্ড আদান প্রদান করা হয় ।ভাউচার (VOUCHER) নামক ফীচার এ মাউস পয়েন্টার নিলে ফান্ড ট্রান্সফার নামক অপশনে ক্লিক করতে হবে।
 
                                    </p>
                                       <img  src="assets/images/fund_transfer_list.jpg" style=" width: 765px;height: 340px;">
@@ -3620,13 +3607,14 @@
                                     ক্লিক করলে নিচের মতো একটি ভাউচার (VOUCHER) আসবে।
 
                                    </p>
-                                      <img  src="assets/images/fund_transfer_view.jpg" style=" width: 765px;height: 400px;">
-                                       <p>
-                                   এখানে প্রথম ফিল্ডটি হচ্ছে ফান্ড অর্গানাইজেশান যা নিজে নিজে সেট হয়ে যাবে। এর পরের ফিল্ড হচ্ছে টার্গেট ব্রাঞ্চ । এখানে যে ব্রাঞ্চে ফান্ড পাঠানো হবে তা উল্লেখ করে দিতে হবে। তারপরের ফিল্ড হচ্ছে টার্গেট ব্রাঞ্চ ক্যাশ / ব্যাংক হেড। এই ফিল্ডে যে ব্রাঞ্চে পাঠানো হবে তার ক্যাশ হেড বা ব্যাংক হেড উল্লেখ করে দিতে হবে। তার পরের ফিল্ড হচ্ছে ভাউচার (VOUCHER) ডেইট এবং তারপরের ফিল্ড হচ্ছে ভাউচার কোড। এই দুটি ফিল্ড নিজে নিজে সেট হয়ে যাবে। এর পরের ফিল্ড হচ্ছে ডেভিট একাউন্ট । এতে যে একাউন্ট হেডে টাকা বা ফান্ড জমা হবে বা ট্রান্সফার হবে তার হেড লিখতে হবে। তারপরের ফিল্ড হচ্ছে ক্রেডিট একাউন্ট এখানে যে ফান্ড হতে টাকা ট্রান্সফার হবে তার হেড লিখতে হবে। তারপরের ফিল্ড হচ্ছে এমাউন্ট এখানে কত টাকা লেনদেন হবে তা লিখতে হবে। তারপরের ফিল্ড হচ্ছে রিসিভ টাইপ এখানে ক্যাশে নাকি ব্যাংকের মাধ্যমে লেনদেন করা হবে তা উল্লেখ করতে হবে। তারপরের ফিল্ড হচ্ছে নেরেশান বা চেক ডিটেইলস এখানে লেনদেন সংক্রান্ত মন্তব্য লিখতে হবে। এর পাশে দিয়ে একটা বাটন আছে যা আরো লেনদেন এড করার জন্য ব্যাবহার করা হয়। এতে ক্লিক করলে আবার নতুন লেনদেন এড করার ভাউচার (VOUCHER) আসবে এবং আগের লিখিত লেনদেন নিচে দেখা যাবে এভাবে অনেকগুলো লেনদেন একই ভাউচারে (VOUCHER) এড করা যাবে।এরপর সব লেনদেন লিখা সম্পন্ন হলে নিচের মতো সেইভ বাটনে ক্লিক করে ভাউচার (VOUCHER) সাবমিট করতে হবে।
-
-                                   </p>
-                                      <img  src="assets/images/fund_transfer_save.jpg" style=" width: 765px;height: 340px;">
-                                    <p>
+                                      <img  src="assets/images/fund_transfer_save.jpg" style=" width: 765px;height: 400px;">
+                                      
+                                        <p>
+                                            Fund Transfer এর ক্ষেত্রে এন্ট্রি দেওয়ার জন্য ডেবিট একাউন্ট থেকে ডেবিট হিসাব টি সিলেক্ট করতে হবে।ক্রেডিট একাউন্ট থেকে ক্রেডিট হিসাবটি সিলেক্ট করতে হবে। তারপর এমাউন্ট এ ট্রান্সেকশন এমাউন্ট লিখতে হবে। একাদিক ট্রান্সেকশন একসাথে করতে চাইলে অ্যাড বাটনে ক্লিক করে করতে হবে।
+                                          </p>
+                                          <p>
+                                            আর Narration/Cheque Details এ হিসাবের শর্ট ডেসক্রিপশন এবং Global Narration এ হিসাবের  Narration লিখতে হবে। তারপর সেইভ বাটনে ক্লিক করলে ভাউচার Save হবে।
+                                          </p>
 
                                         Fo কার্যালয় থেকে শাখায় ফান্ড প্রাপ্তি হলে : Fund Transafer  <br>
 
@@ -3639,7 +3627,7 @@
                                         Credit=Fund Payable Fo(24001)
                                     </p>
                                     <p>
-                                      Example Entry: ধরুন 10000 টাকা Fo থেকে শাখায় ফান্ড প্রাপ্তি হলে নিচে Vouchar নিচে Entry হবে । 
+                                      Example Entry: ধরুন 10000 টাকা Fo থেকে শাখায় ফান্ড প্রাপ্তি হলে নিচের Vouchar টি Entry হবে । 
                                        <img  src="assets/images/fo_1_exam.png" style="width: 772px;
                                        height: 129px;">
                                     </p>
@@ -3656,7 +3644,7 @@
                                         Credit=15411/Bank 14904
                                     </p>
                                     <p>
-                                      Example Entry: ধরুন 10000 টাকা শাখা থেকে ফান্ড প্রাপ্তি হলে নিচে Fund Transfer Vouchar নিচে Entry হবে । 
+                                      Example Entry: ধরুন 10000 টাকা শাখা থেকে ফান্ড প্রাপ্তি হলে নিচের Vouchar টি Entry হবে। 
                                        <img  src="assets/images/fo_2_exam.png" style="width: 742px;
                                        height: 129px;">
                                     </p>
@@ -3671,6 +3659,7 @@
                                        
                                         <img  src="assets/images/fo_exam12.png" style="width: 410px;height: 53px;">
                                         <br>
+                                        <p>Example Entry: ধরুন 10000 টাকার অগ্রিম পণ্য বিতরণ করা হল  । নিচে Vouchar টি Entry দিয়ে দেখানো হলো ।</p>
                                         <img  src="assets/images/fo_ogrim_1.png" style="width: 742px;
                                         height: 129px;">
 
@@ -3687,7 +3676,24 @@
                                           <br>
                                         <img  src="assets/images/fo_contra_2.png" style="width: 742px;
                                         height: 129px;">
-                                    </p>
+                                    </p>          <p>
+
+                                    ফান্ডের মাধমে পাসবই ক্রয় হলে : Fund  Transfer
+                                     
+    
+                                    
+                                     <img  src="assets/images/journal_4.png" style="width: 473px;height: 53px;">
+                                     <br>
+                                     <p>Example Entry: ধরুন 10000 টাকায় ফান্ডের মাধমে পাসবই ক্রয় করা হলো  । নিচে Vouchar টি Entry দিয়ে দেখানো হলো ।</p>
+                                     <img  src="assets/images/journal_4_exam.png" style="width: 742px;
+                                     height: 129px;">
+    
+    
+    
+                                    
+                                 </p> 
+                               
+
                                   
                                      
                                 </div><!--//section-block-->
@@ -3698,28 +3704,30 @@
                             </section>
                              <section id="auto_recipt_vouchar" class="doc-section">
                                 <div id="printinstallation"> 
-                                <h2 class="section-title">কিভাবে অটো রিসিভ ভাউচার(Auto Receipt Voucher) ডাটা বা তথ্য জেনারেট করা যাবে
+                                <h2 class="section-title">
+                                  অটো রিসিভ ভাউচার(Auto Receipt Voucher) এন্ট্রির নিয়মাবলী
+                                
                                                      
                                 </h2>
                                 <div id="step1"  class="section-block">
                                    
                                    <p>
-                                    অটো ভাউচার মডিউলে মাউস পয়েন্টার নিলে রিসিভ নামক অপশনে ক্লিক করতে হবে।
+                                    অটো ভাউচার ফীচার এ মাউস পয়েন্টার নিলে রিসিভ নামক অপশনে ক্লিক করতে হবে।
 
                                    </p>
                                   
                                     <img  src="assets/images/auto_receipt_vouchar_list.jpg" style="   width: 765px;height: 340px;">
                                     <p>
-                                    তাহলে নিচের মতো ভাউচারটি অপেন বা আসবে।
+                                    তাহলে নিচের মতো ভাউচারটি অপেন হবে।
 
                                    </p>
                                       <img  src="assets/images/auto_receipt_vouchar_view.jpg" style=" width: 765px;height: 340px;">
                                     <p>
-                                    এখানে চিত্রের মতো সাবমিট বাটনে ক্লিক করলে ঐ দিনের সংগঠিত সকল লেনদেনের মধ্যে সকল রিসিভ লেনদেন গুলো চলে আসবে যেগুলো অথোরাইজড করা আছে।
+                                        এখানে চিত্রের মতো সাবমিট বাটনে ক্লিক করলে ঐ দিনের সংগঠিত সকল লেনদেনের যেই লেনদেন গুলো ক্যাশে রিসিভ হয়েছে এবং যেগুলো MIS এ অথোরাইজড করা হয়েছে সেই  সকল লেনদেন গুলো নিম্নে  প্রদশিত হবে  ।
 
                                    </p>
                                     <p>
-                                    এখন এম আই এস এর ডে বুকের সাথে সকল রিসিভ লেনদেন মিলিয়ে নিয়ে নিচের চিত্রের মতো সেইভ নামক বাটনে ক্লিক করে লেনদেন সংরক্ষিত করতে হবে।
+                                    এখন এম আই এস(MIS) এর ডে বুকের সাথে সকল রিসিভ লেনদেন মিলিয়ে নিয়ে নিচের চিত্রের মতো সেইভ নামক বাটনে ক্লিক করে লেনদেন সংরক্ষিত করতে হবে।
 
                                    </p>
                                       <img  src="assets/images/auto_receipt_vouchar_report.jpg" style="width: 765px;height: 340px;">
@@ -3732,23 +3740,54 @@
                             </section>
                               <section id="auto_recipt_vouchar" class="doc-section">
                                 <div id="printinstallation"> 
-                                <h2 class="section-title">কিভাবে অটো পেমেন্ট ভাউচার(Auto Payment Voucher) ডাটা বা তথ্য জেনারেট করা যাবে
+                                <h2 class="section-title">
+                                    অটো পেমেন্ট ভাউচার(Auto Payment Voucher)  এন্ট্রির নিয়মাবলী
                                                      
                                 </h2>
                                 <div id="step1"  class="section-block">
                                    
                                    <p>
-                                   অটো পেমেন্ট ভাউচার জেনারেট করতে হলে অটো ভাউচার এর উপর মাউস পয়েন্টার রেখে অটো পেমেন্ট ভাউচার অফশনে এ ক্লিক করতে হবে। তারপর সাবমিট বাটনে ক্লিক করতে হবে। 
+                                   অটো পেমেন্ট ভাউচার জেনারেট করতে হলে অটো ভাউচার এর উপর মাউস পয়েন্টার রেখে অটো পেমেন্ট ভাউচার অফশনে এ ক্লিক করতে হবে। তাহলে নিচের মতো ভাউচারটি অপেন হবে।
                                    </p>
                                   
                                     <img  src="assets/images/auto_payment_vouchar_report.png" style="width: 765px;height: 340px;">
                                     <p>
-                                   রিপোর্ট এর হিসেব গুলো ঠিক আছে কিনা তা এমআইএস এর ডে বুকের সাথে মিলিয়ে সেইভ বাটনে ক্লিক করতে হবে। 
+                                        এখানে চিত্রের মতো সাবমিট বাটনে ক্লিক করলে ঐ দিনের সংগঠিত সকল লেনদেনের যেই লেনদেন গুলো ক্যাশে পেমেন্ট হয়েছে এবং যেগুলো MIS এ অথোরাইজড করা হয়েছে সেই সকল লেনদেন গুলো নিম্নে প্রদশিত হবে ।
 
                                    </p>
+
                                       <img  src="assets/images/auto_payment_vouchar_view.png" style=" width: 765px;height: 340px;">
                                    
-                                      
+                                  <p>এখন এম আই এস(MIS) এর ডে বুকের সাথে সকল পেমেন্ট লেনদেন মিলিয়ে নিয়ে নিচের চিত্রের মতো সেইভ নামক বাটনে ক্লিক করে লেনদেন সংরক্ষিত করতে হবে।</p>
+                                </div><!--//section-block-->
+                            
+                                    <!-- <h1>Print me</h1>  -->
+                                </div> 
+                              
+                            </section>
+                            <section id="auto_recipt_vouchar" class="doc-section">
+                                <div id="printinstallation"> 
+                                <h2 class="section-title">
+                                    জার্নাল ভাউচার(Journal Voucher)  এন্ট্রির নিয়মাবলী
+                                                     
+                                </h2>
+                                <div id="step1"  class="section-block">
+                                   
+                                   <p>
+                                     
+                                      অটো জার্নাল  ভাউচার জেনারেট করতে হলে অটো ভাউচার এর উপর মাউস পয়েন্টার রেখে অটো জার্নাল  ভাউচার অফশনে এ ক্লিক করতে হবে। তাহলে নিচের মতো ভাউচারটি অপেন হবে।    
+                                   </p>
+                                  
+                                    <img  src="assets/images/journal_vouchar_report.png" style="width: 765px;height: 340px;">
+                                    <p>
+                                        এখানে চিত্রের মতো সাবমিট বাটনে ক্লিক করলে ঐ দিনের সংগঠিত সকল লেনদেনের যেই লেনদেন গুলো ননক্যাশ লেনদেন এবং যেগুলো MIS এ অথোরাইজড করা হয়েছে সেই সকল লেনদেন গুলো নিম্নে প্রদশিত হবে ।যেমনঃ Samity Transfer,write off loan ammount,savings interest amount,loan and savings adjustment amount 
+
+
+                                   </p>
+
+                                      <img  src="assets/images/journal_vouchar_view.png" style=" width: 765px;height: 340px;">
+                                   
+                                  <p>এখন এম আই এস(MIS) এর ডে বুকের সাথে সকল ননক্যাশ লেনদেন মিলিয়ে নিয়ে নিচের চিত্রের মতো সেইভ নামক বাটনে ক্লিক করে লেনদেন সংরক্ষিত করতে হবে।</p>
                                 </div><!--//section-block-->
                             
                                     <!-- <h1>Print me</h1>  -->
