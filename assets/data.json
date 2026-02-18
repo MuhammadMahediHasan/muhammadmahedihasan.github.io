@@ -1,0 +1,171 @@
+{
+  "profile": {
+    "name": "Muhammad Mahedi Hasan",
+    "role": "Full Stack Software Engineer",
+    "short_bio": "Building scalable web applications with modern technologies. Passionate about Laravel, Vue.js, and clean code.",
+    "about": [
+      "I am a dedicated software engineer with a strong background in designing and maintaining enterprise applications. My expertise lies in backend development with <strong>Laravel</strong> and creating interactive frontends with <strong>Vue.js</strong>.",
+      "Currently working at <strong>Kaz Software</strong>, I thrive in collaborative environments where I can solve complex problems and deliver high-quality code. I love to write clean code and follow best practices."
+    ],
+    "socials": {
+      "github": "https://github.com/MuhammadMahediHasan",
+      "linkedin": "https://www.linkedin.com/in/muhammad-mahedi-hasan-739bb6180/",
+      "twitter": "https://x.com/me_mahedi_hasan",
+      "medium": "https://medium.com/@mahadih727"
+    },
+    "contact": {
+      "email": "mahadih727@gmail.com",
+      "phone": "(+88) 01850-594062",
+      "location": "Dhaka, Bangladesh"
+    }
+  },
+  "experience": [
+    {
+      "role": "Software Engineer",
+      "company": "Kaz Software",
+      "duration": "Jun 2025 – Present",
+      "location": "Shatinagar, Dhaka",
+      "description": "Contributed to global organizations (UNICEF and JICA), impacting the education and food safety sectors.",
+      "achievements": [
+        "Contribute to building an offline-first data collection system allowing users in rural areas to record data without internet and sync once online.",
+        "Designed a notification archiving system that periodically stores old data using Laravel Scheduler, improving performance and storage efficiency.",
+        "Optimized applications focusing on scalability, secure APIs, and performance."
+      ]
+    },
+    {
+      "role": "Software Engineer",
+      "company": "SkylarkSoft Limited",
+      "duration": "Aug 2021 – May 2025",
+      "location": "Mirpur DOHS, Dhaka",
+      "tech_stack": [
+        "PHP",
+        "Laravel",
+        "VueJS",
+        "ReactJs",
+        "jQuery",
+        "Docker"
+      ],
+      "description": "Develop and contribute to goRMG ERP for Apparel Industries in Bangladesh and abroad.",
+      "achievements": [
+        "Contributed to production tracking (ProTracker) system which increased at least 15% productivity.",
+        "Managed the deployment on various cloud platforms using pipelines, resulting in a 35% decrease in time in application deployment.",
+        "Contributed to the development of a mail system for delivering daily reports based on a user-defined schedule.",
+        "Contributed to build an automated system that generates database backups on Google Drive.",
+        "Optimized the system with Laravel queues, scheduling, and query improvements, resulting in a 30% faster application.",
+        "Implement design patterns for the reusable, maintainable, readable and refactored legacy code base.",
+        "Collaborated in the development of multiple custom Laravel packages, enhancing functionality and streamlining workflows.",
+        "Implement third-party device API for managing employee attendance.",
+        "Practices Domain Driven Development.",
+        "Experienced in working with Docker for containerization and deployment.",
+        "Collaborated with and mentored junior developers, providing guidance and support."
+      ]
+    },
+    {
+      "role": "Jr. Software Engineer",
+      "company": "Expert IT Solution",
+      "duration": "Jul 2020 – Jul 2021",
+      "location": "Kallyanpur, Dhaka",
+      "tech_stack": [
+        "PHP",
+        "Laravel",
+        "VueJS"
+      ],
+      "description": "Contributed to several application developments.",
+      "achievements": [
+        "prominentedu.com : an online course selling and quiz system. Requirement analysis, develop, maintain and implement the system.",
+        "Inventory Management Software : Contributes to several modules.",
+        "bhorerkagojprokashan.com : Develop e-commerce application. Which is based on Laravel and VueJs."
+      ]
+    },
+    {
+      "role": "Internship / Jr. Software Engineer",
+      "company": "TMSS ICT Limited",
+      "duration": "Jun 2019 – Mar 2020",
+      "location": "Kazipara, Mirpur, Dhaka",
+      "tech_stack": [
+        "PHP",
+        "Laravel",
+        "jQuery"
+      ],
+      "description": "Assisted in developing the School Management ERP and a Point of Sale (POS) system for tracking inventory, stock, and sales.",
+      "achievements": []
+    }
+  ],
+  "skills": [
+    "PHP",
+    "Laravel",
+    "Inertia",
+    "Vue.js",
+    "Nuxt.js",
+    "MySQL",
+    "REST API",
+    "Git",
+    "JavaScript",
+    "jQuery",
+    "Linux",
+    "AWS",
+    "Docker"
+  ],
+  "projects": [
+    {
+      "title": "School Management ERP",
+      "description": "An ERP solution for managing school operations, students, and staff.",
+      "tech_stack": [
+        "Laravel",
+        "jQuery"
+      ],
+      "link": "https://tisibogra.com/",
+      "is_private": false
+    },
+    {
+      "title": "Prominent Education",
+      "description": "An application for managing course and training.",
+      "tech_stack": [
+        "Laravel",
+        "jQuery"
+      ],
+      "link": "https://prominentedu.com/",
+      "is_private": false
+    },
+    {
+      "title": "Ecommerce (Book Shop)",
+      "description": "A full-featured ecommerce platform designed specifically for book sales.",
+      "tech_stack": [
+        "Laravel",
+        "Vue.js"
+      ],
+      "link": "http://bhorerkagojprokashan.com/",
+      "is_private": false
+    },
+    {
+      "title": "Classified (Book Market)",
+      "description": "An online marketplace for buying and selling books (Nilkhet Book Market).",
+      "tech_stack": [
+        "Laravel",
+        "Vue.js"
+      ],
+      "link": "https://nilkhetbook.market/",
+      "is_private": false
+    },
+    {
+      "title": "Inventory ERP",
+      "description": "A comprehensive inventory management system for large-scale businesses.",
+      "tech_stack": [
+        "Laravel",
+        "jQuery"
+      ],
+      "link": "#",
+      "is_private": true
+    },
+    {
+      "title": "POS System",
+      "description": "Point of Sale application helping retailers manage daily operations efficiently.",
+      "tech_stack": [
+        "Laravel",
+        "jQuery"
+      ],
+      "link": "http://pos-center.herokuapp.com",
+      "is_private": false
+    }
+  ]
+}
